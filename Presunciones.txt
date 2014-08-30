@@ -1,0 +1,37 @@
+Presunciones
+
+El pasajero solicita el taxi por web / mobile
+El pasajero solicita el taxi por telefono
+La operadora carga los datos del pasajeron por la web
+El pasajero espera como maximo el plazo estimado
+Responde solo el taxi disponible mas cercano
+El taxista informa al llegar al domicilio
+El gps informa constantemente la posicion del taxi
+El taxista tomara un camino mas corto
+El pasajero llega a destino
+El pasajero califica al taxista
+El pasajero busca un taxista determinado
+El pasajero busca un auto determinado
+El pasajero cancela el viaje
+
+Objetivos
+Aumentar Facturacion (Blando?)
+Poder conocer la posicion actual del taxi(1)
+Poder estimar el tiempo de llegada
+Poder puntuar al taxista(2 y 4)
+Poder elegir auto
+Ofrecer solo viajes en un radio determinado del pasajero
+Poder cancelar viajes(6)
+Que los taxistas sean informados de la cancelacion del viaje inmediatamente(6)
+Solicitar viajes desde movil / web / telefono (solicitud de viajes en linea y via offline)
+Poder planificar viajes reiterativos (y con costo fijo?)
+Mantenimiento de sistema movil para la automatizacion de solicitudes de taxis de los pasajeros y la coordinacion de los viajes con los taxistas(opino que este es el objetivo principal).
+Proveer indicadores y estadisticas de las ventas
+
+
+Objetivos Blandos
+Maximizar el nivel de facturacion
+Modernizar la imagen de la empresa 
+Utilizar teconologias de vanguardia para captar la atencion del mercado
+Maximizar cantidad de pasajeros y taxistas disponibles en la flota
+
