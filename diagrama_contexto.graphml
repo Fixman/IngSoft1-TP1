@@ -109,7 +109,7 @@ de Taxis (GPS)<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="52.788370253164516" width="164.96399492352316" x="-285.7119593881853" y="192.16606389391382"/>
+          <y:Geometry height="52.788370253164516" width="164.96399492352316" x="-430.8919847705695" y="177.13485002108143"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="136.041015625" x="14.46148964926158" y="17.327778876582272">Aplicación para celular<y:LabelModel>
@@ -124,7 +124,6 @@ de Taxis (GPS)<y:LabelModel>
       </data>
     </node>
     <node id="n6">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="64.28816494845364" width="164.96399492352316" x="565.8301779094662" y="235.69576486891225"/>
@@ -142,13 +141,12 @@ de Taxis (GPS)<y:LabelModel>
       </data>
     </node>
     <node id="n7">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
           <y:Geometry height="82.22272453285112" width="239.16974726159796" x="135.49870581465575" y="61.984567550940454"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="152.166015625" x="43.50186581829897" y="24.97854976642556">Sistema de Coordinación 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="152.166015625" x="43.501865818298995" y="24.97854976642556">Sistema de Coordinación 
 y Solicitud de Viajes<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -187,11 +185,11 @@ hacia pasajero<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" anchorX="39.06640625000006" anchorY="-40.866272726857915" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="center_right" ratio="0.5" textColor="#000000" upX="-1.0" upY="-6.123233995736766E-17" visible="true" width="91.80859375" x="20.933593750000057" y="-132.67486647685791">Señal de status<y:LabelModel>
+          <y:EdgeLabel alignment="center" anchorX="23.878176863641727" anchorY="-41.712550838302946" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="center_right" ratio="0.5" textColor="#000000" upX="-1.0" upY="-6.123233995736766E-17" visible="true" width="91.80859375" x="5.745364363641727" y="-133.52114458830295">Señal de status<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="-15.25150340001511" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="14.811770613641668" distanceToCenter="true" position="right" ratio="-14.405225288570051" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="1.5707963267948966" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="center" side="right" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -225,11 +223,11 @@ hacia pasajero<y:LabelModel>
           <y:Path sx="25.5" sy="0.0" tx="24.51800253823842" ty="6.6996025467148"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" anchorX="39.06640341714467" anchorY="-33.55578186513418" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-1.0" upY="-6.123233995736766E-17" visible="true" width="91.80859375" x="20.93359091714467" y="-125.36437561513418">Señal de status<y:LabelModel>
+          <y:EdgeLabel alignment="center" anchorX="24.737885128127346" anchorY="-33.91399482235954" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-1.0" upY="-6.123233995736766E-17" visible="true" width="91.80859375" x="6.6050726281273455" y="-125.72258857235954">Señal de status<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="15.67148171098268" distanceToCenter="true" position="right" ratio="0.5062687569731519" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -281,11 +279,11 @@ hacia pasajero<y:LabelModel>
           <y:Path sx="-119.60292673757372" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" anchorX="-58.85474125736661" anchorY="-21.21074968119187" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="0.322660888199427" upY="0.9465146333926152" visible="true" width="178.966796875" x="-228.24943339095788" y="-21.21074968119187">Confirmación de envío de taxi<y:LabelModel>
+          <y:EdgeLabel alignment="center" anchorX="-103.94942324080327" anchorY="-0.5011766319593249" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="0.20322222316326102" upY="0.9791326406634505" visible="true" width="178.966796875" x="-279.1816556561014" y="-0.5011766319593249">Confirmación de envío de taxi<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.35022368288384864" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="12.549143066071618" distanceToCenter="true" position="right" ratio="0.4483681855965886" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -299,11 +297,11 @@ hacia pasajero<y:LabelModel>
           <y:Path sx="52.75491711047488" sy="24.88087564585291" tx="33.75" ty="-15.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" anchorX="36.23460578095859" anchorY="80.68233815336279" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="0.8654262854811262" upY="-0.5010362705417046" visible="true" width="103.5625" x="36.23460578095859" y="71.59714140393079">Demanda un taxi<y:LabelModel>
+          <y:EdgeLabel alignment="center" anchorX="4.989204054031916" anchorY="53.71860776375878" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="0.9999803220989184" upY="-0.006273389430234538" visible="true" width="103.5625" x="4.989204054031916" y="53.60485356948086">Demanda un taxi<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="center" ratio="0.5" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="13.718525374538354" distanceToCenter="true" position="left" ratio="0.4293781818564738" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -317,11 +315,11 @@ hacia pasajero<y:LabelModel>
           <y:Path sx="82.49505305418913" sy="22.462254615665643" tx="-9.667126027771019" ty="2.4935880383039404"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" anchorX="67.2883642844055" anchorY="16.764371305481234" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-0.3469119572492253" upY="-0.9378976990682468" visible="true" width="137.78125" x="60.997874809597285" y="-48.04031492564953">Transmisión de pedido<y:LabelModel>
+          <y:EdgeLabel alignment="center" anchorX="149.42949246151844" anchorY="-14.093414419373062" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-0.22919897066311512" upY="-0.9733795928860274" visible="true" width="137.78125" x="145.27347050129117" y="-63.32284474517906">Transmisión de pedido<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="11.464432116437978" distanceToCenter="true" position="right" ratio="0.5541477927603913" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -353,11 +351,12 @@ hacia pasajero<y:LabelModel>
           <y:Path sx="-21.25" sy="-7.5" tx="-6.819974617615799" ty="5.728789933696149"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" anchorX="-23.09968337039936" anchorY="-61.839354421899316" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-0.8798397019729807" upY="0.47527055329790485" visible="true" width="144.19140625" x="-107.58358114557178" y="-188.7046783239643">Confirmación de pedido<y:LabelModel>
+          <y:EdgeLabel alignment="center" anchorX="20.89941710981094" anchorY="-40.11229465297538" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-0.9997377089760173" upY="0.022902254286078175" visible="true" width="144.19140625" x="-0.5309475680354496" y="-184.26588079138057">Confirmación de pedido
+<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="center" ratio="0.5" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="12.746197323939803" distanceToCenter="true" position="right" ratio="0.4800163861865677" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -368,14 +367,14 @@ hacia pasajero<y:LabelModel>
     <edge id="e11" source="n5" target="n3">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-72.5" sy="-6.25" tx="-43.0699746176158" ty="13.228789933696149"/>
+          <y:Path sx="-53.35850853068848" sy="-26.402094786595654" tx="-43.0699746176158" ty="13.228789933696149"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" anchorX="-31.63202882107629" anchorY="-83.90175974829876" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-0.8952432701134366" upY="0.4455777006500665" visible="true" width="91.97265625" x="-88.84627187448405" y="-166.23966129056777">Puntuar taxista<y:LabelModel>
+          <y:EdgeLabel alignment="center" anchorX="19.622813265753962" anchorY="-53.94301560688018" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" upX="-0.9990851912173849" upY="0.04276424546418906" visible="true" width="91.97265625" x="-2.4265524259860083" y="-145.83153446318224">Puntuar taxista<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="center" ratio="0.5" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="12.845290546172503" distanceToCenter="true" position="right" ratio="0.3877451360553384" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -384,7 +383,6 @@ hacia pasajero<y:LabelModel>
       </data>
     </edge>
     <edge id="e12" source="n6" target="n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
