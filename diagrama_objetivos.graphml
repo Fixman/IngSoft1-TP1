@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
   <!--Created by yEd 3.13-->
-  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="graphml" id="d0" yfiles.type="resources"/>
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
   <key for="port" id="d3" yfiles.type="portuserdata"/>
   <key attr.name="url" attr.type="string" for="node" id="d4"/>
   <key attr.name="description" attr.type="string" for="node" id="d5"/>
   <key for="node" id="d6" yfiles.type="nodegraphics"/>
-  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="Description" attr.type="string" for="graph" id="d7"/>
   <key attr.name="url" attr.type="string" for="edge" id="d8"/>
   <key attr.name="description" attr.type="string" for="edge" id="d9"/>
   <key for="edge" id="d10" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d0"/>
+    <data key="d7"/>
     <node id="n0">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.cloud">
           <y:Geometry height="50.0" width="276.0" x="-1791.61447915533" y="-576.1313002406343"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="188.125" x="43.9375" y="16.015625">Lograr[Maximizar Facturacion]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="166.052734375" x="54.9736328125" y="16.296875">Lograr[Maximizar Facturacion]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -36,7 +36,7 @@
           <y:Geometry height="50.0" width="217.0" x="-1171.8581922519907" y="-496.68547649799933"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="143.40625" x="36.796875" y="9.03125">Lograr[Modernizar la 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="126.068359375" x="45.4658203125" y="9.59375">Lograr[Modernizar la 
 imagen de la empresa]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -53,7 +53,7 @@ imagen de la empresa]<y:LabelModel>
           <y:Geometry height="50.0" width="217.0" x="-742.716234024949" y="-522.2641338505955"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="169.64453125" x="23.677734375" y="9.03125">Lograr[Utilizar teconologias
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="149.40625" x="33.796875" y="9.59375">Lograr[Utilizar teconologias
  de vanguardia]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -70,7 +70,7 @@ imagen de la empresa]<y:LabelModel>
           <y:Geometry height="50.0" width="212.0" x="-2286.115296292264" y="-494.3919790701002"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="169.111328125" x="21.4443359375" y="9.03125">Lograr[Maximizar cantidad 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="148.7265625" x="31.63671875" y="9.59375">Lograr[Maximizar cantidad 
 de pasajeros]
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -88,7 +88,7 @@ de pasajeros]
           <y:Geometry height="35.0" width="829.6919995316573" x="-1592.7306191587172" y="-229.24784000843147"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="872.828125" x="-21.568062734171235" y="1.53125">Mantener [Sistema móvil para la automatización de solicitudes de taxis de los pasajeros y la coordinación eficientede los viajes con los taxistas,
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="767.728515625" x="30.981741953328765" y="2.09375">Mantener [Sistema móvil para la automatización de solicitudes de taxis de los pasajeros y la coordinación eficientede los viajes con los taxistas,
 junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -105,7 +105,7 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
           <y:Geometry height="40.0" width="227.69199953165725" x="-4231.290018824178" y="482.8401600704352"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="227.359375" x="0.16631226582831005" y="4.03125">Lograr[Recibir pedido via teléfono de
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="200.125" x="13.78349976582831" y="4.59375">Lograr[Recibir pedido via teléfono de
  usuario ya registrado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -122,7 +122,7 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
           <y:Geometry height="40.0" width="248.95964746421583" x="-3625.2847464108568" y="473.23007900843197"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="228.783203125" x="10.088222169607889" y="4.03125">Lograr[Recibir pedido via web/mobile
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="201.4375" x="23.76107373210789" y="4.59375">Lograr[Recibir pedido via web/mobile
 de usuario ya registrado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -139,7 +139,7 @@ de usuario ya registrado]<y:LabelModel>
           <y:Geometry height="40.0" width="220.13016915563628" x="-4379.62493226054" y="699.9945866032572"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="212.916015625" x="3.6070767653181974" y="11.015625">Lograr[Cargar pedido demandado]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="188.125" x="16.002584577818197" y="11.296875">Lograr[Cargar pedido demandado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -155,7 +155,7 @@ de usuario ya registrado]<y:LabelModel>
           <y:Geometry height="40.0" width="161.52598374147476" x="-3570.072357336915" y="293.96174846243076"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="138.109375" x="11.708304370737551" y="11.015625">Lograr[Recibir Pedido]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="123.396484375" x="19.06474968323755" y="11.296875">Lograr[Recibir Pedido]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -171,7 +171,7 @@ de usuario ya registrado]<y:LabelModel>
           <y:Geometry height="40.0" width="165.38443722923944" x="-2593.122025214474" y="256.09926063247053"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="149.892578125" x="7.745929552119833" y="11.015625">Lograr[Cancelar pedido]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="132.748046875" x="16.318195177119833" y="11.296875">Lograr[Cancelar pedido]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -187,7 +187,7 @@ de usuario ya registrado]<y:LabelModel>
           <y:Geometry height="40.0" width="316.43745620770096" x="-2250.803435653702" y="422.4598005872964"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="305.412109375" x="5.512673416350481" y="4.03125">Lograr[Informar la cancelacion al taxista, 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="269.546875" x="23.44529060385048" y="4.59375">Lograr[Informar la cancelacion al taxista, 
 dado que fue generada la cancelación del pedido]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -221,7 +221,7 @@ dado que fue generada la cancelación del pedido]<y:LabelModel>
           <y:Geometry height="40.0" width="153.20829433734724" x="-2429.904089198979" y="646.952754356666"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="132.162109375" x="10.523092481173535" y="4.03125">Lograr[Cancelar el 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="114.71875" x="19.244772168673535" y="4.59375">Lograr[Cancelar el 
 viaje via web/mobile]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -238,7 +238,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="40.0" width="238.72048041901337" x="-2584.5126623462834" y="422.4598005872964"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="238.328125" x="0.19617770950662816" y="4.03125">Lograr[Generar cancelación de Pedido,
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="213.466796875" x="12.626841772006628" y="4.59375">Lograr[Generar cancelación de Pedido,
  dado que pedido existe]
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -256,7 +256,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="35.0" width="343.7544995316574" x="216.0931368646152" y="44.47713467679455"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="365.693359375" x="-10.969429921671292" y="8.515625">Lograr [Coordinación eficiente de los viajes con los taxistas]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="322.169921875" x="10.792288828328708" y="8.796875">Lograr [Coordinación eficiente de los viajes con los taxistas]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -272,7 +272,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="35.0" width="551.5669995316573" x="-3079.253633980675" y="27.225174111382074"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="540.408203125" x="7.15879640665753" y="8.515625">Mantener [Sistema móvil para la automatizacion de solicitudes de taxis de los pasajeros]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="474.90625" x="72.66074953165753" y="8.796875">Mantener [Sistema móvil para la automatizacion de solicitudes de taxis de los pasajeros]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -322,7 +322,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="40.0" width="227.69199953165725" x="-5314.953883515994" y="992.6647933334355"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="225.970703125" x="0.86064820332831" y="11.015625">Lograr[Registrar cliente via teléfono]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="196.767578125" x="15.46221070332831" y="11.296875">Lograr[Registrar cliente via teléfono]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -338,7 +338,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="40.0" width="248.95964746421583" x="-4982.705961369577" y="992.6647933334355"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="246.208984375" x="1.3753315446083434" y="11.015625">Lograr[Registrar cliente via web/mobile]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="214.76171875" x="17.098964357108343" y="11.296875">Lograr[Registrar cliente via web/mobile]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -388,7 +388,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-4040.034751124107" y="804.0572468939579"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -404,7 +404,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-4309.559847682722" y="804.0572468939579"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="60.625" x="9.6875" y="11.015625">Operador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="54.6953125" x="12.65234375" y="11.296875">Operador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -420,7 +420,7 @@ viaje via web/mobile]<y:LabelModel>
           <y:Geometry height="40.0" width="220.13016915563628" x="-4110.099835701925" y="699.9945866032572"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="191.787109375" x="14.171529890318197" y="4.03125">Lograr[Registrar nuevo pedido 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="169.43359375" x="25.348287702818197" y="4.59375">Lograr[Registrar nuevo pedido 
 en sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -454,7 +454,7 @@ en sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-3376.4217122070354" y="799.1648419896655"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -470,7 +470,7 @@ en sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="220.13016915563628" x="-3446.4867967848536" y="699.9945866032572"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="191.787109375" x="14.171529890318197" y="4.03125">Lograr[Registrar nuevo pedido 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="169.43359375" x="25.348287702818197" y="4.59375">Lograr[Registrar nuevo pedido 
 en sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -504,7 +504,7 @@ en sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="220.13016915563628" x="-4637.185809632636" y="699.9945866032572"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="141.712890625" x="39.2086392653182" y="11.015625">Lograr[Demandar taxi]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="123.390625" x="48.3697720778182" y="11.296875">Lograr[Demandar taxi]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -520,7 +520,7 @@ en sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-4567.120725054818" y="804.0572468939579"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.123046875" x="16.9384765625" y="11.015625">Cliente<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="41.353515625" x="19.3232421875" y="11.296875">Cliente<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -536,7 +536,7 @@ en sistema]<y:LabelModel>
           <y:Geometry height="50.69217245362529" width="161.52598374147465" x="-2542.3201889573375" y="804.3544702424906"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="130.919921875" x="15.303030933237096" y="9.377336226812645">Lograr[Demandar 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="115.404296875" x="23.060843433237096" y="9.939836226812645">Lograr[Demandar 
 cancelación de viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -553,7 +553,7 @@ cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-2127.918346540606" y="900.0301506972612"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -569,7 +569,7 @@ cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-2501.5571970866004" y="903.5247256288988"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.123046875" x="16.9384765625" y="11.015625">Cliente<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="41.353515625" x="19.3232421875" y="11.296875">Cliente<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -585,7 +585,7 @@ cancelación de viaje]<y:LabelModel>
           <y:Geometry height="50.69217245362529" width="172.6039500853658" x="-2174.2203215832888" y="804.3544702424906"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="165.935546875" x="3.3342016051828978" y="2.392961226812645">Lograr[Registrar pedido de
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="146.751953125" x="12.925998480182898" y="3.236711226812645">Lograr[Registrar pedido de
 cancelación de viaje 
 en el sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -620,7 +620,7 @@ en el sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="153.20829433734724" x="-2942.8941406812883" y="646.952754356666"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="115.73828125" x="18.735006543673535" y="4.03125">Lograr[Cancelar el
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="102.71875" x="25.244772168673535" y="4.59375">Lograr[Cancelar el
  viaje via teléfono]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -637,7 +637,7 @@ en el sistema]<y:LabelModel>
           <y:Geometry height="50.69217245362529" width="181.42324643595157" x="-2989.4938566275555" y="871.4457081260355"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="155.470703125" x="12.976271655475557" y="2.392961226812645">Lograr[Cargar pedido de 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="138.0859375" x="21.668654467975557" y="3.236711226812645">Lograr[Cargar pedido de 
 cancelación de viaje en
 el sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -655,7 +655,7 @@ el sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-2709.6957890856647" y="984.2710150578173"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -671,7 +671,7 @@ el sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-2938.7822334095795" y="984.2710150578173"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="60.625" x="9.6875" y="11.015625">Operador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="54.6953125" x="12.65234375" y="11.296875">Operador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -687,7 +687,7 @@ el sistema]<y:LabelModel>
           <y:Geometry height="50.69217245362529" width="172.6039500853658" x="-2755.9977641283476" y="871.4457081260355"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="165.935546875" x="3.3342016051828978" y="2.392961226812645">Lograr[Registrar pedido de
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="146.751953125" x="12.925998480182898" y="3.236711226812645">Lograr[Registrar pedido de
 cancelación de viaje 
 en el sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -722,7 +722,7 @@ en el sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="161.42131030412565" x="-3238.074234165263" y="871.4457081260355"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="159.63671875" x="0.8922957770628273" y="4.03125">Lograr[Solicitar pedido de
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="140.751953125" x="10.334678589562827" y="4.59375">Lograr[Solicitar pedido de
 cancelación de viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -739,7 +739,7 @@ cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-3197.3635790132003" y="984.2710150578173"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.123046875" x="16.9384765625" y="11.015625">Cliente<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="41.353515625" x="19.3232421875" y="11.296875">Cliente<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -755,7 +755,7 @@ cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="171.20872878196872" x="-1801.1771422508396" y="606.952754356666"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="169.94921875" x="0.6297550159843013" y="4.03125">Lograr[Confirmar recepción
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="150.0625" x="10.573114390984301" y="4.59375">Lograr[Confirmar recepción
 de cancelación de viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -772,7 +772,7 @@ de cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="171.20872878196872" x="-2030.9088403548462" y="606.952754356666"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="168.595703125" x="1.3065128284843013" y="4.03125">Lograr[Mostrar información
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="148.052734375" x="11.577997203484301" y="4.59375">Lograr[Mostrar información
 de cancelación de viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -789,7 +789,7 @@ de cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="165.38443722923944" x="-2233.137966420983" y="606.952754356666"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="160.6328125" x="2.375812364619833" y="4.03125">Lograr[Enviar información
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="141.396484375" x="11.993976427119833" y="4.59375">Lograr[Enviar información
 de cancelación de viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -823,7 +823,7 @@ de cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-1755.5727778598553" y="695.7432896984328"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="47.4296875" x="16.28515625" y="11.015625">Taxista<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="42.677734375" x="18.6611328125" y="11.296875">Taxista<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -839,7 +839,7 @@ de cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="110.86874522946493" x="-2000.7388485785941" y="695.7432896984328"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="93.578125" x="8.64531011473241" y="4.03125">Terminal móvil
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="82.01171875" x="14.42851323973241" y="4.59375">Terminal móvil
 en taxi<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -856,7 +856,7 @@ en taxi<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-2190.445747806363" y="695.7432896984328"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -872,7 +872,7 @@ en taxi<y:LabelModel>
           <y:Geometry height="50.69217245362529" width="181.42324643595157" x="-2368.2188866175516" y="804.3544702424906"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="152.810546875" x="14.306349780475557" y="9.377336226812645">Lograr[Enviar pedido de 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="135.419921875" x="23.001662280475557" y="9.939836226812645">Lograr[Enviar pedido de 
 cancelación de viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -889,7 +889,7 @@ cancelación de viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="115.40294957415449" x="-2335.2087381866536" y="900.0301506972612"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="96.396484375" x="9.503232599577132" y="4.03125">Aplicación para
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="86.048828125" x="14.677060724577132" y="4.59375">Aplicación para
 celular<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -906,7 +906,7 @@ celular<y:LabelModel>
           <y:Geometry height="50.69217245362529" width="181.42324643595157" x="-3840.5747391433106" y="699.9945866032572"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="147.337890625" x="17.042677905476012" y="9.377336226812645">Lograr[Demandar móvil
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="129.384765625" x="26.019240405476012" y="9.939836226812645">Lograr[Demandar móvil
 via la aplicación]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -923,7 +923,7 @@ via la aplicación]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-3789.863115925335" y="799.1648419896655"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.123046875" x="16.9384765625" y="11.015625">Cliente<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="41.353515625" x="19.3232421875" y="11.296875">Cliente<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -939,7 +939,7 @@ via la aplicación]<y:LabelModel>
           <y:Geometry height="50.69217245362529" width="181.42324643595157" x="-3646.5761741090478" y="699.9945866032572"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="133.99609375" x="23.713576342975557" y="9.377336226812645">Lograr[Enviar pedido 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="118.73828125" x="31.342482592975557" y="9.939836226812645">Lograr[Enviar pedido 
 de viaje al sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -956,7 +956,7 @@ de viaje al sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="115.40294957415449" x="-3613.56602567815" y="799.1648419896655"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="96.396484375" x="9.503232599577132" y="4.03125">Aplicación para
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="86.048828125" x="14.677060724577132" y="4.59375">Aplicación para
 celular<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -973,7 +973,7 @@ celular<y:LabelModel>
           <y:Geometry height="53.886277471557605" width="220.13016915563628" x="-5278.53144817339" y="585.0936578155413"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="211.603515625" x="4.263326765318197" y="10.974388735778803">Lograr[Se verifica que el usuario
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="184.755859375" x="17.687154890318197" y="11.536888735778803">Lograr[Se verifica que el usuario
 no está registrado y se lo registra]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -990,7 +990,7 @@ no está registrado y se lo registra]<y:LabelModel>
           <y:Geometry height="40.0" width="189.30584930073212" x="-2852.604846087572" y="422.4598005872964"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="182.587890625" x="3.3589793378660033" y="4.03125">Lograr[Verificar que existe el 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="160.076171875" x="14.614838712866003" y="4.59375">Lograr[Verificar que existe el 
 pedido a cancelar]
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -1008,7 +1008,7 @@ pedido a cancelar]
           <y:Geometry height="40.0" width="189.30584930073212" x="-3097.946166407908" y="422.4598005872964"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="183.00390625" x="3.1509715253660033" y="4.03125">Lograr[Verificar que no existe
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="160.75" x="14.277924650366003" y="4.59375">Lograr[Verificar que no existe
  el pedido a cancelar]
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -1026,7 +1026,7 @@ pedido a cancelar]
           <y:Geometry height="40.0" width="80.0" x="-3043.293241757542" y="534.7062774719811"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1042,7 +1042,7 @@ pedido a cancelar]
           <y:Geometry height="40.0" width="80.0" x="-2797.951921437206" y="535.8033906844428"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1058,7 +1058,7 @@ pedido a cancelar]
           <y:Geometry height="40.0" width="220.13016915563628" x="-5119.408503425734" y="760.8630134885351"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="154.451171875" x="32.8394986403182" y="4.03125">Lograr[Registrar usuario 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="136.7265625" x="41.7018033278182" y="4.59375">Lograr[Registrar usuario 
 no registrado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1092,7 +1092,7 @@ no registrado]<y:LabelModel>
           <y:Geometry height="53.886277471557605" width="220.13016915563628" x="-5561.080057919057" y="586.374096359709"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="155.388671875" x="32.3707486403182" y="10.974388735778803">Lograr[Se verifica que el 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="137.40625" x="41.3619595778182" y="11.536888735778803">Lograr[Se verifica que el 
 usuario está registrado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1109,7 +1109,7 @@ usuario está registrado]<y:LabelModel>
           <y:Geometry height="53.886277471557605" width="220.13016915563628" x="-5408.915509208954" y="454.1217541766715"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="158.435546875" x="30.847311140318197" y="10.974388735778803">Lograr[Usuario registrado
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="140.06640625" x="40.0318814528182" y="11.536888735778803">Lograr[Usuario registrado
 en el sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1143,7 +1143,7 @@ en el sistema]<y:LabelModel>
           <y:Geometry height="53.886277471557605" width="202.45672510092743" x="-5508.059725754929" y="763.108536906806"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="177.8359375" x="12.310393800463316" y="10.974388735778803">Lograr[Verificar si el usuario 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="156.73046875" x="22.863128175463316" y="11.536888735778803">Lograr[Verificar si el usuario 
 está registrado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1160,7 +1160,7 @@ está registrado]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-5446.878206469634" y="879.0756024962014"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1193,7 +1193,7 @@ está registrado]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-5353.949136445936" y="1242.0686591409863"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="60.625" x="9.6875" y="11.015625">Operador<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="54.6953125" x="12.65234375" y="11.296875">Operador<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1209,7 +1209,7 @@ está registrado]<y:LabelModel>
           <y:Geometry height="40.0" width="227.69199953165725" x="-5426.240043501371" y="1143.478252999479"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="200.0078125" x="13.84209351582831" y="4.03125">Lograr[Obtener datos del cliente
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="175.439453125" x="26.12627320332831" y="4.59375">Lograr[Obtener datos del cliente
 y cargarlos en el sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1226,7 +1226,7 @@ y cargarlos en el sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="227.69199953165725" x="-4799.900653971957" y="1141.108342923419"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="192.0859375" x="17.80303101582831" y="11.015625">Lograr[Registrar nuevo cliente]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="168.0859375" x="29.80303101582831" y="11.296875">Lograr[Registrar nuevo cliente]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1242,7 +1242,7 @@ y cargarlos en el sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-4724.873926719176" y="1242.054644036237"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1275,7 +1275,7 @@ y cargarlos en el sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="227.69199953165725" x="-5147.45859744231" y="1144.7978471014515"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="200.0078125" x="13.84209351582831" y="4.03125">Lograr[Obtener datos del cliente
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="175.439453125" x="26.12627320332831" y="4.59375">Lograr[Obtener datos del cliente
 y enviarlos al sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1309,7 +1309,7 @@ y enviarlos al sistema]<y:LabelModel>
           <y:Geometry height="40.0" width="115.40294957415449" x="-5090.837926314759" y="1243.0409870260528"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="96.396484375" x="9.503232599577132" y="4.03125">Aplicación para
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="86.048828125" x="14.677060724577132" y="4.59375">Aplicación para
 celular<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1326,7 +1326,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="227.69199953165725" x="-5687.888200922346" y="1142.8231392597877"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="180.109375" x="23.79131226582831" y="11.015625">Lograr[Dar datos personales]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="159.419921875" x="34.13603882832831" y="11.296875">Lograr[Dar datos personales]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1342,7 +1342,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-5614.70479931448" y="1245.4581696524465"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.123046875" x="16.9384765625" y="11.015625">Cliente<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="41.353515625" x="19.3232421875" y="11.296875">Cliente<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1358,7 +1358,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="142.62140780142272" x="-994.3061210162859" y="627.8559611918711"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="130.158203125" x="6.23160233821136" y="4.03125">Lograr[Obtener 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="113.388671875" x="14.61636796321136" y="4.59375">Lograr[Obtener 
 calificacion del viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1375,7 +1375,7 @@ calificacion del viaje]<y:LabelModel>
           <y:Geometry height="17.550816071188137" width="15.015520206070562" x="-859.532008930436" y="520.5478009480815"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.507760103035281" y="6.775408035594069">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1392,7 +1392,7 @@ calificacion del viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-962.995417115575" y="733.999794063637"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.123046875" x="16.9384765625" y="11.015625">Cliente<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="41.353515625" x="19.3232421875" y="11.296875">Cliente<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1408,7 +1408,7 @@ calificacion del viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="168.39374401362466" x="-774.4293816557447" y="627.8559611918711"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="164.201171875" x="2.0962860693123275" y="4.03125">Lograr[Generar 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="144.7421875" x="11.825778256812328" y="4.59375">Lograr[Generar 
 estadisticas e indicadores]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1425,7 +1425,7 @@ estadisticas e indicadores]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-730.2325096489321" y="733.999794063637"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1441,7 +1441,7 @@ estadisticas e indicadores]<y:LabelModel>
           <y:Geometry height="35.0" width="343.7544995316574" x="-1023.9014985932299" y="413.2843235045484"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="215.751953125" x="64.00127320332871" y="8.515625">Mantener [Información de taxistas]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="188.08984375" x="77.83232789082876" y="8.796875">Mantener [Información de taxistas]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1457,7 +1457,7 @@ estadisticas e indicadores]<y:LabelModel>
           <y:Geometry height="40.0" width="184.16207372383394" x="-547.7577764109396" y="627.8559611918711"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="157.94921875" x="13.10642748691697" y="11.015625">Lograr[Registrar taxistas]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="138.05078125" x="23.055646236917028" y="11.296875">Lograr[Registrar taxistas]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1473,7 +1473,7 @@ estadisticas e indicadores]<y:LabelModel>
           <y:Geometry height="40.0" width="141.681850377202" x="-1487.9886175616596" y="871.236441968985"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="132.8359375" x="4.422956438600977" y="4.03125">Lograr[Obtener 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="115.3984375" x="13.141706438600977" y="4.59375">Lograr[Obtener 
 ubicación del taxista]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1490,7 +1490,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="141.681850377202" x="-1290.0383742247843" y="871.236441968985"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="132.8359375" x="4.422956438600977" y="4.03125">Lograr[Enviar
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="115.3984375" x="13.141706438600977" y="4.59375">Lograr[Enviar
 ubicación del taxista]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1507,7 +1507,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-1457.147692373059" y="997.155076932336"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="28.15234375" x="25.923828125" y="11.015625">GPS<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="29.341796875" x="25.3291015625" y="11.296875">GPS<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1540,7 +1540,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-1051.9676865003607" y="997.155076932336"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1556,7 +1556,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="102.96553764912406" x="-1270.6802178607452" y="997.155076932336"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="81.912109375" x="10.526714137062072" y="4.03125">Terminal
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="70.69140625" x="16.137065699562072" y="4.59375">Terminal
 móvil en taxi<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1573,7 +1573,7 @@ móvil en taxi<y:LabelModel>
           <y:Geometry height="40.0" width="141.681850377202" x="-1082.8086116889622" y="871.236441968985"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="132.8359375" x="4.422956438600977" y="4.03125">Lograr[Registrar 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="115.3984375" x="13.141706438600977" y="4.59375">Lograr[Registrar 
 ubicación del taxista]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1590,7 +1590,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="205.8650936920036" x="-1270.6802178607452" y="627.8559611918711"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="198.935546875" x="3.464773408501742" y="11.015625">Mantener[Ubicación de taxistas]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="174.75390625" x="15.555593721001742" y="11.296875">Mantener[Ubicación de taxistas]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1606,7 +1606,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="205.8650936920036" x="-42.28023397913421" y="623.5005784362617"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="174.912109375" x="15.476492158501742" y="4.03125">Mantener[Información sobre
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="154.076171875" x="25.8944609085018" y="4.59375">Mantener[Información sobre
 disponibilidad de taxistas]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1623,7 +1623,7 @@ disponibilidad de taxistas]<y:LabelModel>
           <y:Geometry height="50.09911088840556" width="206.06368229078686" x="-289.5432764029215" y="848.4219813783861"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="184.2578125" x="10.9029348953934" y="2.096430444202724">Lograr[Informar sobre cambio
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="162.12109375" x="21.9712942703934" y="2.940180444202724">Lograr[Informar sobre cambio
 de estado en la disponibilidad
 del taxi]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -1641,7 +1641,7 @@ del taxi]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="-225.8802408270035" y="970.553449758585"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="47.4296875" x="16.28515625" y="11.015625">Taxista<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="42.677734375" x="18.6611328125" y="11.296875">Taxista<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1657,7 +1657,7 @@ del taxi]<y:LabelModel>
           <y:Geometry height="50.09911088840556" width="206.06368229078686" x="-59.76614928024401" y="848.8115092568855"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="171.173828125" x="17.4449270828934" y="2.096430444202724">Lograr[Enviar información 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="152.095703125" x="26.98398958289343" y="2.940180444202724">Lograr[Enviar información 
 sobre cambio de estado en 
 la disponibilidad del taxi]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -1675,7 +1675,7 @@ la disponibilidad del taxi]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="242.53620218193782" y="973.9291377310499"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1691,7 +1691,7 @@ la disponibilidad del taxi]<y:LabelModel>
           <y:Geometry height="40.0" width="102.96553764912406" x="-7.8003355309592735" y="970.141971147898"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="81.912109375" x="10.526714137062072" y="4.03125">Terminal
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="70.69140625" x="16.13706569956203" y="4.59375">Terminal
 móvil en taxi<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1708,7 +1708,7 @@ móvil en taxi<y:LabelModel>
           <y:Geometry height="50.09911088840556" width="206.06368229078686" x="177.36243813141527" y="848.5905650138839"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="202.9609375" x="1.5513723953934004" y="9.080805444202724">Lograr[Cargar cambio de estado 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="180.09765625" x="12.9830130203934" y="9.643305444202724">Lograr[Cargar cambio de estado 
 en la disponibilidad del taxi]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1725,7 +1725,7 @@ en la disponibilidad del taxi]<y:LabelModel>
           <y:Geometry height="17.550816071188137" width="15.015520206070562" x="55.98754680645652" y="780.9609246392457"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.507760103035281" y="6.775408035594069">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1759,7 +1759,7 @@ en la disponibilidad del taxi]<y:LabelModel>
           <y:Geometry height="40.0" width="219.97857986061535" x="1111.2830394457433" y="574.463605797052"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="178.955078125" x="20.511750867807677" y="4.03125">Lograr[Recopilar información
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="158.072265625" x="30.953157117807677" y="4.59375">Lograr[Recopilar información
 sobre taxis disponibles]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1776,7 +1776,7 @@ sobre taxis disponibles]<y:LabelModel>
           <y:Geometry height="40.0" width="141.681850377202" x="564.6769534282439" y="890.2094269318768"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="132.8359375" x="4.422956438600977" y="4.03125">Lograr[Conocer la 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="115.3984375" x="13.141706438600977" y="4.59375">Lograr[Conocer la 
 ubicación del taxista]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1793,7 +1793,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="257.37623657688084" x="1643.9869321688109" y="367.74395803407515"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="246.21484375" x="5.580696413440421" y="11.015625">Lograr[Enviar Taxi para un viaje pedido]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="216.7890625" x="20.293587038440364" y="11.296875">Lograr[Enviar Taxi para un viaje pedido]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1809,7 +1809,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="188.40640027063486" x="788.9323985055605" y="890.2094269318768"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="167.951171875" x="10.227614197817388" y="4.03125">Lograr[Conocer calificación
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="149.40625" x="19.50007513531739" y="4.59375">Lograr[Conocer calificación
  del taxista]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1826,7 +1826,7 @@ ubicación del taxista]<y:LabelModel>
           <y:Geometry height="40.0" width="177.424052755807" x="1056.7634183154705" y="888.947038070826"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="175.099609375" x="1.1622216904034985" y="4.03125">Lograr[Conocer historial del 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="154.744140625" x="11.339956065403385" y="4.59375">Lograr[Conocer historial del 
 taxista con el pasajero]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1843,7 +1843,7 @@ taxista con el pasajero]<y:LabelModel>
           <y:Geometry height="17.550816071188137" width="15.015520206070562" x="1102.410338885645" y="740.674265471094"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594182">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1860,7 +1860,7 @@ taxista con el pasajero]<y:LabelModel>
           <y:Geometry height="40.0" width="207.60588759535187" x="2398.511819679624" y="562.6611853584045"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="187.01171875" x="10.29708442267588" y="4.03125">Lograr[Comenzar movilización
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="166.064453125" x="20.770717235176107" y="4.59375">Lograr[Comenzar movilización
 del taxi adecuado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1877,7 +1877,7 @@ del taxi adecuado]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="843.135598640878" y="960.2094269318768"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1893,7 +1893,7 @@ del taxi adecuado]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="1104.0942199013903" y="958.947038070826"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1909,7 +1909,7 @@ del taxi adecuado]<y:LabelModel>
           <y:Geometry height="40.0" width="177.424052755807" x="2584.602495403181" y="723.1863565510425"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="148.5859375" x="14.419057627903612" y="4.03125">Lograr[Confirmar
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="129.419921875" x="24.002065440403385" y="4.59375">Lograr[Confirmar
 petición de nuevo viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1943,7 +1943,7 @@ petición de nuevo viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="2633.3145217810843" y="828.2406072346671"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="47.4296875" x="16.28515625" y="11.015625">Taxista<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="42.677734375" x="18.6611328125" y="11.296875">Taxista<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1959,7 +1959,7 @@ petición de nuevo viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="207.60588759535187" x="1562.1156095081797" y="574.463605797052"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="140.1484375" x="33.72872504767594" y="4.03125">Lograr[Decidir auto 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="123.419921875" x="42.09298286017588" y="4.59375">Lograr[Decidir auto 
 adecuado para enviar]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1976,7 +1976,7 @@ adecuado para enviar]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="1513.4070456789889" y="825.3621410323476"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1992,7 +1992,7 @@ adecuado para enviar]<y:LabelModel>
           <y:Geometry height="58.55903839789505" width="211.3897352719158" x="1719.1074402532963" y="727.4069329576366"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#000000" visible="true" width="202.369140625" x="4.510297323457962" y="-0.6579808010524175">Lograr[Automatizar asistencia
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="57.625" modelName="custom" textColor="#000000" visible="true" width="177.4375" x="16.976117635957962" y="0.4670191989475825">Lograr[Automatizar asistencia
 para selección de taxis (no 
 la elección del taxi) si fue pedido
 via la aplicación]<y:LabelModel>
@@ -2011,7 +2011,7 @@ via la aplicación]<y:LabelModel>
           <y:Geometry height="49.285964653003816" width="207.60588759535187" x="1449.604101881313" y="732.0434698300824"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="203.4296875" x="2.088100047675937" y="8.674232326501851">Lograr[Evaluar automáticamente
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="178.09375" x="14.75606879767588" y="9.236732326501851">Lograr[Evaluar automáticamente
 el mejor taxi disponible]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2045,7 +2045,7 @@ el mejor taxi disponible]<y:LabelModel>
           <y:Geometry height="62.872159266112135" width="177.424052755807" x="1553.7562571328915" y="907.6320492701075"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="170.546875" x="3.4385888779034985" y="8.482954633056124">Lograr[Brindar información 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="149.400390625" x="14.011831065403612" y="9.326704633056124">Lograr[Brindar información 
 sobre taxis y taxistas 
 disponibles]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2063,7 +2063,7 @@ disponibles]<y:LabelModel>
           <y:Geometry height="62.872159266112135" width="177.424052755807" x="1761.1803098886987" y="907.6320492701072"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="172.41015625" x="2.5069482529034985" y="8.482954633056124">Lograr[Mostrar información 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="151.38671875" x="13.018667002903612" y="9.326704633056124">Lograr[Mostrar información 
 sobre taxis y taxistas 
 disponibles]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2081,7 +2081,7 @@ disponibles]<y:LabelModel>
           <y:Geometry height="49.285964653003816" width="127.93328369475353" x="1975.7208873582954" y="914.4251465766615"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="108.0390625" x="9.947110597376764" y="8.674232326501851">Lograr[Elegir taxi
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="94.708984375" x="16.61214965987665" y="9.236732326501851">Lograr[Elegir taxi
 disponible]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2098,7 +2098,7 @@ disponible]<y:LabelModel>
           <y:Geometry height="17.550816071188137" width="15.015520206070562" x="1817.2945477862188" y="850.6897911634792"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035593955">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2115,7 +2115,7 @@ disponible]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="1602.4682835107951" y="1035.0859732587433"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2131,7 +2131,7 @@ disponible]<y:LabelModel>
           <y:Geometry height="40.0" width="115.40294957415449" x="1792.190861479525" y="1040.241261702603"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="96.396484375" x="9.503232599577245" y="4.03125">Aplicación para
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="86.048828125" x="14.677060724577359" y="4.59375">Aplicación para
 celular<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2148,7 +2148,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="1999.687529205672" y="1035.0859732587433"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.123046875" x="16.9384765625" y="11.015625">Cliente<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="41.353515625" x="19.3232421875" y="11.296875">Cliente<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2164,7 +2164,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="2145.560873235074" y="830.7211142369447"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2180,7 +2180,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="102.96553764912406" x="2372.407324999338" y="830.7211142369447"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="81.912109375" x="10.526714137062072" y="4.03125">Terminal
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="70.69140625" x="16.137065699561845" y="4.59375">Terminal
 móvil en taxi<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2197,7 +2197,7 @@ móvil en taxi<y:LabelModel>
           <y:Geometry height="40.0" width="177.424052755807" x="2335.178067445996" y="723.1863565510425"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="166.609375" x="5.407338877903612" y="4.03125">Lograr[Mostrar notificación
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="146.060546875" x="15.681752940403385" y="4.59375">Lograr[Mostrar notificación
 de nuevo viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2214,7 +2214,7 @@ de nuevo viaje]<y:LabelModel>
           <y:Geometry height="40.0" width="177.424052755807" x="2096.8488468571704" y="723.1863565510425"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="158.646484375" x="9.388784190403499" y="4.03125">Lograr[Enviar notificación
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="139.404296875" x="19.009877940403385" y="4.59375">Lograr[Enviar notificación
 de nuevo viaje]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2231,7 +2231,7 @@ de nuevo viaje]<y:LabelModel>
           <y:Geometry height="54.36458437580029" width="206.1532215074078" x="2822.7089106240855" y="723.1863565510425"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="189.89453125" x="8.12934512870379" y="4.229167187900202">Lograr[Informar 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="165.408203125" x="20.37250919120379" y="5.072917187900202">Lograr[Informar 
 confirmación de viaje y tiempo
 aproximado de espera]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2249,7 +2249,7 @@ aproximado de espera]<y:LabelModel>
           <y:Geometry height="40.0" width="115.40294957415449" x="2868.0840465907118" y="825.3676903595069"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="96.396484375" x="9.503232599577359" y="4.03125">Aplicación para
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="86.048828125" x="14.677060724577132" y="4.59375">Aplicación para
 celular<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2266,7 +2266,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="177.424052755807" x="3395.018793086282" y="723.1863565510425"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="154.62109375" x="11.401479502903612" y="4.03125">Lograr[Mostrar ubicación
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="136.7265625" x="20.348745127903385" y="4.59375">Lograr[Mostrar ubicación
 del taxi movilizado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2283,7 +2283,7 @@ del taxi movilizado]<y:LabelModel>
           <y:Geometry height="40.0" width="115.40294957415449" x="3426.0293446771084" y="839.6714310921097"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="96.396484375" x="9.503232599577359" y="4.03125">Aplicación para
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="86.048828125" x="14.677060724577132" y="4.59375">Aplicación para
 celular<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2300,7 +2300,7 @@ celular<y:LabelModel>
           <y:Geometry height="40.0" width="177.424052755807" x="3118.273663348191" y="723.1863565510425"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="160.369140625" x="8.527456065403612" y="4.03125">Lograr[Informar ubicación
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="140.734375" x="18.344838877903385" y="4.59375">Lograr[Informar ubicación
 del taxi movilizado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2317,7 +2317,7 @@ del taxi movilizado]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="3166.985689726095" y="839.6714310921097"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2333,7 +2333,7 @@ del taxi movilizado]<y:LabelModel>
           <y:Geometry height="65.6652139309873" width="177.424052755807" x="3251.4985572117102" y="558.1287976436897"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="157.826171875" x="9.798940440403385" y="9.879481965493596">Lograr[Informar al cliente
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="137.39453125" x="20.014760752903385" y="10.723231965493596">Lograr[Informar al cliente
 sobre la posición del taxi
 movilizado]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2368,7 +2368,7 @@ movilizado]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="595.0554550591407" y="959.2106626717596"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2384,7 +2384,7 @@ movilizado]<y:LabelModel>
           <y:Geometry height="40.0" width="273.1275420510774" x="362.59523125979354" y="429.3961924682293"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="217.298828125" x="27.9143569630387" y="4.03125">Mantener[Información sobre viajes 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="191.423828125" x="40.8518569630387" y="4.59375">Mantener[Información sobre viajes 
 pedidos (regulares y únicos)]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2401,7 +2401,7 @@ pedidos (regulares y únicos)]<y:LabelModel>
           <y:Geometry height="17.550816071188137" width="15.015520206070562" x="329.7641740954724" y="217.9738898706688"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.507760103035281" y="6.775408035594069">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2418,7 +2418,7 @@ pedidos (regulares y únicos)]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="459.121376562023" y="521.5176157479415"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2434,7 +2434,7 @@ pedidos (regulares y únicos)]<y:LabelModel>
           <y:Geometry height="62.872159266112135" width="177.424052755807" x="1341.060413627494" y="907.407846663774"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="171.12109375" x="3.1514795029036122" y="8.48295463305601">Lograr[Verificar que el viaje
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.21875" modelName="custom" textColor="#000000" visible="true" width="150.07421875" x="13.674917002903612" y="9.32670463305601">Lograr[Verificar que el viaje
 fue pedido via la aplicación
 web/mobile]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2452,7 +2452,7 @@ web/mobile]<y:LabelModel>
           <y:Geometry height="40.0" width="80.0" x="1390.8588722872319" y="1036.0274205125222"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="52.333984375" x="13.8330078125" y="11.015625">Sistema<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2468,7 +2468,7 @@ web/mobile]<y:LabelModel>
           <y:Geometry height="35.0" width="343.7544995316574" x="-311.13199552030073" y="-235.6522632415676"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="302.423828125" x="20.665335703328765" y="1.53125">Mantener [Estadísticas e indicadores sobre el uso
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="269.4765625" x="37.13896851582871" y="2.09375">Mantener [Estadísticas e indicadores sobre el uso
 del sistema y la satisfacción de los clientes]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2485,7 +2485,7 @@ del sistema y la satisfacción de los clientes]<y:LabelModel>
           <y:Geometry height="35.0" width="894.3326292227598" x="-1029.7266835893267" y="-375.9150011743328"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="876.642578125" x="8.845025548879903" y="1.53125">Mantener [Sistema móvil para la automatización de solicitudes de taxis de los pasajeros y la coordinación eficiente de los viajes con los taxistas,
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="771.0625" x="61.6350646113799" y="2.09375">Mantener [Sistema móvil para la automatización de solicitudes de taxis de los pasajeros y la coordinación eficiente de los viajes con los taxistas,
 junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2519,7 +2519,206 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
           <y:Geometry height="35.0" width="343.7544995316574" x="393.4626207159747" y="-201.32666124825994"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="279.853515625" x="31.950491953328708" y="8.515625">Lograr[Aumentar taxis disponibles en la flota]<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="244.134765625" x="49.809866953328765" y="8.796875">Lograr[Aumentar taxis disponibles en la flota]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n150">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="35.0" width="247.60758547209105" x="-1302.2171126119497" y="-17.737643760994445"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="196.767578125" x="25.42000367354558" y="2.09375">Lograr [validar si el nuevo softwarea
+ayuda a incrementar las ventas]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n151">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="35.0" width="247.60758547209105" x="-1531.7788118293297" y="156.24651642666817"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="215.4296875" x="16.08894898604558" y="8.796875">Mantener [Estadísticas sobre los viajes]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n152">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="35.0" width="247.60758547209105" x="-1050.3661354833055" y="156.24651642666817"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="175.404296875" x="36.10164429854558" y="2.09375">Lograr [Informar las estadísticas
+a los directivos de la empresa]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n153">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="215.36153822875121" x="-1767.298874124639" y="318.31507836050866"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="172.099609375" x="21.630964426875607" y="4.59375">Lograr[Obtener forma en la que
+se pidió el taxi]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n154">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="142.62140780142272" x="-1479.2857229939957" y="318.31507836050866"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="100.7265625" x="20.94742265071136" y="4.59375">Lograr[Obtener 
+duración del viaje]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n155">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="142.62140780142272" x="-1264.0127022906809" y="318.31507836050866"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.8125" modelName="custom" textColor="#000000" visible="true" width="88.71484375" x="26.95328202571136" y="4.59375">Lograr[Obtener 
+precio del viaje]<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n156">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.preparation">
+          <y:Geometry height="40.0" width="80.0" x="-1699.6181050102634" y="422.4598005872964"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n157">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.preparation">
+          <y:Geometry height="40.0" width="80.0" x="-1447.9750190932843" y="422.4598005872964"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n158">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.preparation">
+          <y:Geometry height="40.0" width="80.0" x="-1232.7019983899695" y="422.4598005872964"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n159">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.preparation">
+          <y:Geometry height="40.0" width="80.0" x="-966.5623427472599" y="263.5143506220792"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" textColor="#000000" visible="true" width="47.34765625" x="16.326171875" y="11.296875">Sistema<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n160">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.start2">
+          <y:Geometry height="17.550816071188137" width="15.015520206070562" x="-1185.9210799789394" y="57.098755456067295"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n161">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.start2">
+          <y:Geometry height="17.550816071188137" width="15.015520206070562" x="-1415.4827791963196" y="236.6195400625328"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
+            <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2535,7 +2734,7 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.0546875" x="143.50458174998585" y="-62.71387817598168">+<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="11.0078125" x="145.78973799998585" y="-62.55088511219401">+<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2555,7 +2754,7 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.0546875" x="-109.04154553568878" y="-74.40412908454095">+<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="11.0078125" x="-107.51810803568878" y="-74.12287908454095">+<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3560,7 +3759,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e97" source="n4" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3570,7 +3768,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e98" source="n15" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="99.28390645755599" sy="3.1142073255585103" tx="0.0" ty="0.0">
@@ -3581,7 +3778,7 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.0546875" x="1276.0355603197852" y="-384.3333314082363">+<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="11.0078125" x="1277.664187408829" y="-384.09206012165134">+<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3593,7 +3790,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e99" source="n3" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4329,7 +4525,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e170" source="n85" target="n142">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4340,7 +4535,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e171" source="n14" target="n142">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4351,7 +4545,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e172" source="n106" target="n142">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4362,7 +4555,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e173" source="n141" target="n142">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4373,7 +4565,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e174" source="n141" target="n143">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4384,7 +4575,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e175" source="n144" target="n124">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="2.447373448833787" sy="-25.87511062139538" tx="0.0" ty="0.0"/>
@@ -4395,7 +4585,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e176" source="n145" target="n144">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4418,7 +4607,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e178" source="n15" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="10.860107244574237" ty="0.10632297822110104">
@@ -4426,7 +4614,7 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="14.0546875" x="256.02118024001174" y="-235.3885366382311">+<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.40625" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="11.0078125" x="257.5096677751608" y="-235.0710176986378">+<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4439,7 +4627,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e179" source="n146" target="n146">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4452,7 +4639,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e180" source="n147" target="n147">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4462,7 +4648,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e181" source="n4" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4487,7 +4672,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e183" source="n4" target="n148">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4498,7 +4682,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e184" source="n146" target="n148">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4509,7 +4692,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e185" source="n147" target="n148">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4532,7 +4714,6 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
       </data>
     </edge>
     <edge id="e187" source="n149" target="n149">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4544,8 +4725,200 @@ junto con una serie de estadísticas e indicadores sobre el uso del sistema]<y:L
         </y:ArcEdge>
       </data>
     </edge>
+    <edge id="e188" source="n150" target="n150">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-1178.413330078125" y="-0.237643763422966"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e189" source="n151" target="n151">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-1407.9749755859375" y="173.74652099609375"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e190" source="n152" target="n152">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-926.5623168945312" y="173.74652099609375"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e191" source="n150" target="n17">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e192" source="n160" target="n160">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-1178.413330078125" y="65.87416076660156"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e193" source="n160" target="n150">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e194" source="n151" target="n160">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e195" source="n152" target="n160">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e196" source="n159" target="n152">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e197" source="n161" target="n161">
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-1407.9749755859375" y="245.3949432373047"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="0.0" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e198" source="n153" target="n161">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e199" source="n156" target="n153">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e200" source="n154" target="n161">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e201" source="n157" target="n154">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e202" source="n155" target="n161">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e203" source="n158" target="n155">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e204" source="n161" target="n151">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
   </graph>
-  <data key="d7">
+  <data key="d0">
     <y:Resources/>
   </data>
 </graphml>
