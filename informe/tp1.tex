@@ -71,7 +71,7 @@
 \integrante{Zylber, Ariel}{530/12}{arielzylber@gmail.com}
 \integrante{Hardy, Gonzalo}{}{hardy.gonzalo@gmail.com}
 \integrante{Fixman, Mart\'in}{}{martinfixman@gmail.com}
-\integrante{Aleman, Dami\'an Eliel}{}{damianealeman@gmail.com}
+\integrante{Aleman, Dami\'an Eliel}{377/10}{damianealeman@gmail.com}
 
 \def\Materia{Ingenier\'ia del Software 1}
 \def\Titulo{Trabajo Pr\'actico 1}
@@ -139,7 +139,7 @@
 de viaje regular.
 \end{itemize}
 
-\subsubsection{Sobre el tiempo de espera}
+\subsection{Sobre el tiempo de espera}
 \begin{itemize}
 \item Si se trata de un viaje regular, no se informa tiempo de espera porque en ese caso, lo \'unico que interesa es que llegue
 a la hora pactada.
@@ -149,6 +149,42 @@ hacia destino (ya que podr\'a ver el trayecto del m\'ovil).
 Si bien en ese momento no se sabe con certeza cu\'anto tardar\'a el taxi, el operador le da al cliente un tiempo aproximado.
 La otra opci\'on que analizamos fue la de esperar hasta saber con certeza que un taxi se est\'a movilizando, pero en ese caso
 se deber\'ian hacer 2 llamados por cada pasajero (dificultando m\'as el trabajo del operador).
+\end{itemize}
+
+\section{Escenarios informales}
+
+\subsection{Un usuario no registrado quiere pedir un taxi via web:}
+\begin{itemize}
+\item El usuario hace el pedido
+\item El sistema verifica que el usuario no est\'a registrado y la aplicaci\'on le pide los datos
+\item El usuario ingresa los datos y se registra
+\item El usuario demanda el movil via la aplicaci\'on
+\item La aplicaci\'on env\'ia el pedido al sistema
+\item El sistema registra el pedido y muestra la informaci\'on sobre los taxis y taxistas disponibles.
+\item El usuario elige el taxi
+\item El sistema env\'ia la notificaci\'on del viaje nuevo
+\item La terminal del m\'ovil notifica al taxista el viaje
+\item El taxista confirma el viaje
+\item La aplicaci\'on informa la confirmaci\'on del viaje y el tiempo aproximado de espera
+\item La aplicaci\'on muestra la ubicaci\'on del taxi movilizado
+\item Se realiza el viaje y el cliente califica al taxista
+\end{itemize}
+
+\subsection{Un usuario no registrado pide y luego cancela un viaje via tel\'efono :}
+\begin{itemize}
+\item El usuario hace el pedido
+\item El sistema verifica que el usuario no est\'a registrado y el operador le pide los datos
+\item El usuario le dice los datos y el operador los carga en el sistema
+\item El usuario demanda un m\'ovil y el operador carga el pedido
+\item El operador le informa el tiempo aproximado de espera.
+\item El sistema registra el pedido y elige el mejor taxi disponible
+\item El sistema env\'ia la notificaci\'on del viaje nuevo
+\item La terminal del m\'ovil notifica al taxista el viaje
+\item El taxista confirma el viaje
+\item El usuario solicita la cancelaci\'on del viaje
+\item El operador carga el pedido de cancelaci\'on del viaje
+\item El sistema registra el pedido de cancelaci\'on del viaje y env\'ia la informaci\'on a la terminal del m\'ovil
+\item La terminal del m\'ovil informa al taxista la cancelaci\'on del viaje y el taxista confirma la recepci\'on de la cancelaci\'on del viaje
 \end{itemize}
 
 
