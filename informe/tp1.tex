@@ -197,6 +197,29 @@ S\'olo analizamos los casos de usuario registrado, ya que antes describimos c\'o
 
 \subsubsection{Los viajes regulares son delegados a la remiser\'ia}
 
+\paragraph{Un usuario registrado pide un viaje regular via tel\'efono:}
+\begin{itemize}
+\item El usuario llama por telefono
+\item El opeardor verifica que el usuario est\'a registrado
+\item El usuario le dice al operador la hora y la regularidad de los viajes que desea programar, asimismo indica punto de origen y lugar de destino
+\item El operador carga los datos del viaje regular en sistema.
+\item El sistema registra los pedidos 
+\item Llegado el d\'ia anterior a la fecha del viaje programado, el sistema se comunica autom\'aticamente con el sistema de la remiser\'ia y encarga un veh\'iculo para realizar el viaje.
+\item Se realiza el viaje y el cliente califica al servicio
+\end{itemize}
+
+
+\paragraph{Un usuario registrado pide un viaje regular via la aplicaci\'on (y realiza alg\'un viaje):}
+\begin{itemize}
+\item El usuario se conecta a la aplicacion
+\item El sistema verifica que el usuario est\'a registrado y no le pide sus datos personales nuevamente
+\item El usuario programa una serie de pedidos utilizando la aplicaci\'on
+\item La aplicaci\'on env\'ia los pedidos al sistema
+\item El sistema registra los pedidos 
+\item Llegado el d\'ia anterior a la fecha del viaje programado, el sistema se comunica autom\'aticamente con el sistema de la remiser\'ia y encarga un veh\'iculo para realizar el viaje.
+\item Se realiza el viaje y el cliente califica al servicio
+\end{itemize}
+
 \subsubsection{Los viajes regulares son cumplidos por taxis de TecnoTaxi}
 
 \paragraph{Un usuario registrado pide un viaje regular via tel\'efono:}
