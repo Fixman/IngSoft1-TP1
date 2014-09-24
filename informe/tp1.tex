@@ -170,22 +170,51 @@ se deber\'ian hacer 2 llamados por cada pasajero (dificultando m\'as el trabajo 
 \item Se realiza el viaje y el cliente califica al taxista
 \end{itemize}
 
-\subsection{Un usuario no registrado pide y luego cancela un viaje via tel\'efono :}
+\subsection{Un usuario no registrado pide y luego cancela un viaje via tel\'efono:}
 \begin{itemize}
 \item El usuario hace el pedido
 \item El sistema verifica que el usuario no est\'a registrado y el operador le pide los datos
 \item El usuario le dice los datos y el operador los carga en el sistema
 \item El usuario demanda un m\'ovil y el operador carga el pedido
-\item El operador le informa el tiempo aproximado de espera.
+\item El operador le informa el tiempo aproximado de espera
 \item El sistema registra el pedido y elige el mejor taxi disponible
 \item El sistema env\'ia la notificaci\'on del viaje nuevo
 \item La terminal del m\'ovil notifica al taxista el viaje
 \item El taxista confirma el viaje
-\item El usuario solicita la cancelaci\'on del viaje
+\item El usuario solicita la cancelaci\'on del viaje (llama nuevamente por tel\'efono a la empresa)
 \item El operador carga el pedido de cancelaci\'on del viaje
 \item El sistema registra el pedido de cancelaci\'on del viaje y env\'ia la informaci\'on a la terminal del m\'ovil
 \item La terminal del m\'ovil informa al taxista la cancelaci\'on del viaje y el taxista confirma la recepci\'on de la cancelaci\'on del viaje
 \end{itemize}
+(En realidad, en cualquier momento desde el pedido hasta que el taxista arriba al lugar donde se pidi\'o el taxi se puede cancelar el pedido, aqu\'i hacemos s\'olo un ejemplo de una situaci\'on hipot\'etica, las dem\'as son an\'alogas).
 
+\subsection{Sobre los viajes regulares}
+En este caso hicimos un O-refinamiento, dando dos posibles soluciones al problema de agendar (y enviar despu\'es, por supuesto)
+viajes regulares. Las dos opciones son la de terciarizar el cumplimiento de los viajes regulares hacia una remiser\'ia (que se especializan en el cumplimiento eficiente de este tipo de viajes) o la de que TecnoTaxi tambi\'en se encargue del correcto env\'io
+de estos viajes (generando posiblemente m\'as facturaci\'on, pero requiriendo una mayor sofisticaci\'on en el software).\\
+
+S\'olo analizamos los casos de usuario registrado, ya que antes describimos c\'omo registrar un usuario por cualquiera de las dos v\'ias.
+
+\subsubsection{Los viajes regulares son delegados a la remiser\'ia}
+
+\subsubsection{Los viajes regulares son cumplidos por taxis de TecnoTaxi}
+
+\paragraph{Un usuario registrado pide un viaje regular via tel\'efono:}
+
+\paragraph{Un usuario registrado pide un viaje regular via la aplicaci\'on (y realiza alg\'un viaje):}
+\begin{itemize}
+\item El usuario hace el pedido
+\item El sistema verifica que el usuario est\'a registrado y no le pide sus datos personales nuevamente
+\item El usuario demanda el movil via la aplicaci\'on
+\item La aplicaci\'on env\'ia el pedido al sistema
+\item El sistema registra el pedido 
+\item Llegado el momento del env\'io de taxi, la aplicaci\'on muestra la informaci\'on sobre los taxis y taxistas disponibles
+\item El usuario elige el taxi
+\item El sistema env\'ia la notificaci\'on del viaje nuevo
+\item La terminal del m\'ovil notifica al taxista el viaje
+\item El taxista confirma el viaje
+\item La aplicaci\'on informa la confirmaci\'on del viaje y muestra la ubicaci\'on del taxi movilizado
+\item Se realiza el viaje y el cliente califica al taxista
+\end{itemize}
 
 \end{document}
