@@ -69,7 +69,7 @@
 
 \integrante{Sclar, Melanie}{551/12}{melaniesclar@gmail.com}
 \integrante{Zylber, Ariel}{530/12}{arielzylber@gmail.com}
-\integrante{Hardy, Gonzalo}{}{hardy.gonzalo@gmail.com}
+\integrante{Hardy, Gonzalo}{449/09}{hardy.gonzalo@gmail.com}
 \integrante{Fixman, Mart\'in}{}{martinfixman@gmail.com}
 \integrante{Aleman, Dami\'an Eliel}{377/10}{damianealeman@gmail.com}
 
@@ -173,14 +173,14 @@ se deber\'ian hacer 2 llamados por cada pasajero (dificultando m\'as el trabajo 
 \subsection{Un usuario no registrado pide y luego cancela un viaje via tel\'efono:}
 \begin{itemize}
 \item El usuario hace el pedido
-\item El sistema verifica que el usuario no est\'a registrado y el operador le pide los datos
+\item El operador verifica que el usuario no est\'a registrado en el sistema le pide los datos
 \item El usuario le dice los datos y el operador los carga en el sistema
 \item El usuario demanda un m\'ovil y el operador carga el pedido
-\item El operador le informa el tiempo aproximado de espera
 \item El sistema registra el pedido y elige el mejor taxi disponible
 \item El sistema env\'ia la notificaci\'on del viaje nuevo
 \item La terminal del m\'ovil notifica al taxista el viaje
 \item El taxista confirma el viaje
+\item El operador le informa el tiempo aproximado de espera
 \item El usuario solicita la cancelaci\'on del viaje (llama nuevamente por tel\'efono a la empresa)
 \item El operador carga el pedido de cancelaci\'on del viaje
 \item El sistema registra el pedido de cancelaci\'on del viaje y env\'ia la informaci\'on a la terminal del m\'ovil
@@ -200,17 +200,30 @@ S\'olo analizamos los casos de usuario registrado, ya que antes describimos c\'o
 \subsubsection{Los viajes regulares son cumplidos por taxis de TecnoTaxi}
 
 \paragraph{Un usuario registrado pide un viaje regular via tel\'efono:}
+\begin{itemize}
+\item El usuario llama por telefono
+\item El opeardor verifica que el usuario est\'a registrado
+\item El usuario le dice al operador la hora y la regularidad de los viajes que desea programar, asimismo indica punto de origen y lugar de destino
+\item El operador carga los datos del viaje regular en sistema.
+\item El sistema registra los pedidos 
+\item Llegado el momento del env\'io de taxi, el sistema elige de manera autom\'atica el taxi que sera enviado.
+\item El sistema env\'ia luego la notificaci\'on del viaje nuevo
+\item La terminal del m\'ovil notifica al taxista el viaje
+\item El taxista confirma el viaje
+\item La aplicaci\'on informa la confirmaci\'on del viaje y muestra la ubicaci\'on del taxi movilizado
+\item Se realiza el viaje y el cliente califica al taxista
+\end{itemize}
+
 
 \paragraph{Un usuario registrado pide un viaje regular via la aplicaci\'on (y realiza alg\'un viaje):}
 \begin{itemize}
-\item El usuario hace el pedido
+\item El usuario se conecta a la aplicacion
 \item El sistema verifica que el usuario est\'a registrado y no le pide sus datos personales nuevamente
-\item El usuario demanda el movil via la aplicaci\'on
-\item La aplicaci\'on env\'ia el pedido al sistema
-\item El sistema registra el pedido 
-\item Llegado el momento del env\'io de taxi, la aplicaci\'on muestra la informaci\'on sobre los taxis y taxistas disponibles
-\item El usuario elige el taxi
-\item El sistema env\'ia la notificaci\'on del viaje nuevo
+\item El usuario programa una serie de pedidos utilizando la aplicaci\'on
+\item La aplicaci\'on env\'ia los pedidos al sistema
+\item El sistema registra los pedidos 
+\item Llegado el momento del env\'io de taxi, el sistema elige de manera autom\'atica el taxi que sera enviado.
+\item El sistema env\'ia luego la notificaci\'on del viaje nuevo
 \item La terminal del m\'ovil notifica al taxista el viaje
 \item El taxista confirma el viaje
 \item La aplicaci\'on informa la confirmaci\'on del viaje y muestra la ubicaci\'on del taxi movilizado
