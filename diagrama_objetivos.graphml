@@ -3163,7 +3163,7 @@ de RR HH<y:LabelModel>
     <node id="n188">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="30.0" width="213.306640625" x="2621.846370955983" y="-365.77260691604664"/>
+          <y:Geometry height="30.0" width="213.306640625" x="2423.85604819484" y="-365.77260691604664"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="203.306640625" x="5.0" y="-1.1328125">Lograr[Determinar si es necesaria 
@@ -3180,7 +3180,7 @@ una actualizacion del sistema<y:LabelModel>
     <node id="n189">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="30.0" width="199.5078125" x="2404.27684043393" y="-229.84419047317851"/>
+          <y:Geometry height="30.0" width="199.5078125" x="2206.286517672787" y="-229.84419047317851"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="189.5078125" x="5.0" y="-1.1328125">Lograr[Determinar si hay 
@@ -3197,7 +3197,7 @@ nuevas tecnologias disponibles]<y:LabelModel>
     <node id="n190">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="30.0" width="186.763671875" x="2635.117855330983" y="-227.35009108890574"/>
+          <y:Geometry height="30.0" width="186.763671875" x="2437.12753256984" y="-227.35009108890574"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="176.763671875" x="5.0" y="-1.1328125">Lograr[Investigar tecnologias 
@@ -3214,7 +3214,7 @@ de la competencia]<y:LabelModel>
     <node id="n191">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="30.0" width="209.01171875" x="2853.2147296030357" y="-229.84419047317851"/>
+          <y:Geometry height="30.0" width="209.01171875" x="2655.2244068418927" y="-229.84419047317851"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="199.01171875" x="5.0" y="-1.1328125">Lograr[Determinar si la inversion 
@@ -3231,7 +3231,7 @@ necesaria es rentable]<y:LabelModel>
     <node id="n192">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
-          <y:Geometry height="17.550816071188137" width="15.015520206070562" x="2720.9919311654476" y="-305.77260691604664"/>
+          <y:Geometry height="17.550816071188137" width="15.015520206070562" x="2523.0016084043045" y="-305.77260691604664"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="5.5077601030352525" y="6.775408035594069">
@@ -3248,7 +3248,7 @@ necesaria es rentable]<y:LabelModel>
     <node id="n193">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.preparation">
-          <y:Geometry height="30.0" width="101.193359375" x="2453.4340669964304" y="-128.86226606457524"/>
+          <y:Geometry height="30.0" width="101.193359375" x="2255.4437442352873" y="-128.86226606457524"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="91.193359375" x="5.0" y="-1.1328125">Administrador 
@@ -3265,7 +3265,7 @@ de Sistemas<y:LabelModel>
     <node id="n194">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.preparation">
-          <y:Geometry height="30.0" width="101.193359375" x="2677.903011580983" y="-128.86226606457524"/>
+          <y:Geometry height="30.0" width="101.193359375" x="2479.91268881984" y="-128.86226606457524"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="91.193359375" x="5.0" y="-1.1328125">Administrador 
@@ -3282,7 +3282,7 @@ de Sistemas<y:LabelModel>
     <node id="n195">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.preparation">
-          <y:Geometry height="30.0" width="71.85546875" x="2921.7928546030357" y="-128.86226606457524"/>
+          <y:Geometry height="30.0" width="71.85546875" x="2723.8025318418927" y="-128.86226606457524"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="61.85546875" x="5.0" y="5.93359375">Directivos<y:LabelModel>
@@ -5913,7 +5913,7 @@ de Sistemas<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="2728.499755859375" y="-296.9971923828125"/>
+            <y:Point x="2530.50927734375" y="-296.9971923828125"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
