@@ -151,6 +151,11 @@ La otra opci\'on que analizamos fue la de esperar hasta saber con certeza que un
 se deber\'ian hacer 2 llamados por cada pasajero (dificultando m\'as el trabajo del operador).
 \end{itemize}
 
+\subsection{Sobre la duracion del viaje}
+\begin{itemize}
+\item Asumimos que el viaje comienza cuando el taxista acepta el viaje a travez de la terminal en el movil, la cual lo indica autom\'aticamente en estado \"no disponible\" para no ser notificado de nuevos viajes. La duracion esta dada por el tiempo en el cual el taxista marca como finalizado el viaje, o recibe la notificacion de cancelaci\'on del mismo, momento en el cual se identifica al taxista como \"disponible\" por el sistema, para recibir nuevos viajes.
+\end{itemize}
+
 \section{Diccionario}
 \begin{itemize}
 \item Viaje Simple: Denominamos viaje simple a un viaje solicitado por el usuario para realizarse una unica vez
@@ -275,6 +280,7 @@ S\'olo analizamos los casos de usuario registrado, ya que antes describimos c\'o
 \item El taxista tomara un camino m\'as corto
 \item El pasajero llega a destino
 \item El pasajero califica al taxista luego de haber realizado un viaje pedido via web/mobile
+\item El taxista califica al pasajero luego de haber realizado un viaje.
 \item En caso de no necesitar mas el auto, el pasajero cancelar\'a el viaje.
 \item El taxista confirma el viaje si est\'a disponible
 \item El taxista informar\'a cuando se encuentre disponible para recibir un viaje
