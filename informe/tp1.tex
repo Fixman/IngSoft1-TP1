@@ -1,4 +1,4 @@
-\documentclass[a4paper]{artcle}
+\documentclass[a4paper]{article}
 
 \usepackage[paper=a4paper, left=1.5cm, right=1.5cm, bottom=1.5cm, top=3.5cm]{geometry}
 \usepackage[spanish,activeacute]{babel}
@@ -151,7 +151,7 @@ La otra opci\'on que analizamos fue la de esperar hasta saber con certeza que un
 se deber\'ian hacer 2 llamados por cada pasajero (dificultando m\'as el trabajo del operador).
 \end{itemize}
 
-\subsection{Sobre la duracion del viaje}
+\subsection{Sobre la duraci\'on del viaje}
 \begin{itemize}
 \item Asumimos que el viaje comienza cuando el taxista acepta el viaje a travez de la terminal en el movil, la cual lo indica autom\'aticamente en estado \"no disponible\" para no ser notificado de nuevos viajes. La duracion esta dada por el tiempo en el cual el taxista marca como finalizado el viaje, o recibe la notificacion de cancelaci\'on del mismo, momento en el cual se identifica al taxista como \"disponible\" por el sistema, para recibir nuevos viajes.
 \end{itemize}
@@ -300,5 +300,123 @@ S\'olo analizamos los casos de usuario registrado, ya que antes describimos c\'o
  
 \end{itemize}
 
+\section{Expectativas}
+
+
+\begin{itemize}
+\item Verificar si el usuario est\'a registrado
+\item Registrar nuevo cliente
+\item Registrar nuevo pedido en sistema
+\item Verificar que existe el pedido a cancelar
+\item Registrar pedido de cancelaci\'on del viaje en el sistema
+\item Enviar informaci\'on de cancelaci\'on de viaje
+\item Registrar ubicaci\'on del taxista
+\item Generar estad\'isticas e indicadores
+\item Mantener informaci\'on sobre viajes pedidos (regulares  y \'unicos)
+\item Cargar cambio de estado en la disponibilidad del taxi
+\item Determinar los taxistas m\'as cercanos
+\item Conocer calificaci\'on de los taxistas m\'as cercanos
+\item Conocer historial de los taxistas m\'as cercanos con el pasajero
+\item Obtener calificaci\'on de los usuarios
+\item Obtener estad\'isticas sobre la forma en que se pidieron los taxis
+\item Obtener estad\'isticas sobre la duraci\'on de los viajes
+\item Obtener estad\'isticas sobre precio en funci\'on de la duraci\'on de los viajes
+\item Obtener estad\'isticas sobre tiempo de taxis inactivos
+\item Informar las estad\'isticas a los directivos de la empresa
+\item Nuevos taxistas registrados
+\item Evaluar autom\'aticamente el mejor taxi disponible
+\item Verificar que el viaje fue pedido via la aplicacion web/mobile
+\item Brindar informaci\'on sobre taxis y taxistas disponibles
+\item Registrar taxi elegido
+\item Enviar notificaci\'on de nuevo viaje
+\item Informar ubicaci\'on del taxi movilizado
+\item Determinar momento para pedir remis
+\item Enviar pedido de remis
+
+\end{itemize}
+
+
+\section{Requerimientos}
+
+\subsection{Remiser\'ia}
+\begin{itemize}
+ \item Recibir pedido de remis
+\end{itemize}
+
+\subsection{Administrador de sistemas}
+\begin{itemize}
+ \item Determinar si hay nuevas tecnlog\'ias disponibles
+ \item Investigar tecnlog\'ias de la competencia
+ 
+\end{itemize}
+
+
+
+\subsection{Directivos}
+
+\begin{itemize}
+ \item Determinar si es necesario aumentar la flota de taxis
+ \item Determinar si la inversi\'on necesaria es rentable
+\end{itemize}
+
+\subsection{Administrador de RRHH}
+
+\begin{itemize}
+ \item Realizar b\'usqueda de nuevos taxistas
+ \item Registrar nuevos taxistas
+\end{itemize}
+
+
+\subsection{Terminal movil en taxi}
+
+\begin{itemize}
+ \item Mostrar informaci\'on de cancelaci\'on de viaje
+ \item Enviar ubicaci\'on del taxista
+ \item Enviar informaci\'on sobre cambio de estado en la disponibilidad del taxi
+ \item Mostrar notificaci\'on de nuevo viaje
+ 
+ \end{itemize}
+
+\subsection{Taxista}
+\begin{itemize}
+ \item Confirmar recepci\'on de cancelaci\'on del viaje
+ \item Informar sobre cambio de estado en la dispoibilidad del taxi
+ \item Confirmar petici\'on de nuevo viaje
+\end{itemize}
+
+\subsection{GPS}
+\begin{itemize}
+ \item Obtener ubicaci\'on del taxista
+\end{itemize}
+
+
+\subsection{Cliente}
+\begin{itemize}
+\item Dar datos personales
+\item Demandar taxi
+\item Demandar m\'ovil via la aplicaci\'on 
+\item Solicitar pedido de cancelacion del viaje
+\item Demandar cancelaci\'on de viaje (app)
+\item Elegir taxi disponible
+
+\end{itemize}
+
+\subsection{Operador}
+
+\begin{itemize}
+\item Obtener datos del cliente y cargarlos en el sistema
+\item Cargar pedido demandado
+\item Cargar pedido de cancelacion del viaje en sistema
+\end{itemize}
+
+\subsection{Aplicaci\'on para celular}
+\begin{itemize}
+\item Obtener datos del cliente y enviarlos al sistema
+\item Enviar pedido de viaje al sistema
+\item Enviar pedido de cancelaci\'on del viaje
+\item Mostrar informaci\'on sobre taxis y taxistas disponibles
+\item Informar confirmaci\'on de viaje y tiempo aproximado de espera
+\item Mostrar ubicaci\'on del taxi movilizado 
+\end{itemize}
 
 \end{document}
