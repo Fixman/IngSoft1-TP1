@@ -1,0 +1,7 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Diagrama de Casos de Uso}{1}
+\contentsline {section}{\numberline {2}Casos de Uso}{1}
+\contentsline {section}{\numberline {3}Diagrama de Clases}{1}
+\contentsline {section}{\numberline {4}OCL}{1}
+\contentsline {section}{\numberline {5}FSM}{1}
+\contentsline {section}{\numberline {6}Diagramas de Actividad}{1}
