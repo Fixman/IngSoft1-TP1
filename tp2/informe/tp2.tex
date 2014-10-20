@@ -172,6 +172,18 @@ se le pide los datos y se lo registra en el sistema.} \\
 
 \section{FSM}
 
+La primer m\'aquina de estado refleja los estados posibles de la terminal en taxi. El taxi
+puede estar: inactivo (no puede recibir viajes), activo (donde puede aceptar viajes de la calle o le pueden llegar pedidos), 
+u ocupado si es que est\'a realizando un viaje. El otro posible estado es cuando acepta o rechaza los pedidos de taxi que le envian.
+
+La segunda FSM refleja los cambios del sistema cuando se asignan los viajes, se aceptan, se rechazan y las actualizaciones de ubicaci\'on de cada
+taxi. Tambi\'en muestra cuando esta disponible, no disponible o inactivo un taxi determinado.
+
+\begin{center}
+\includegraphics[scale=0.6]{diag_FSM.pdf}
+\end{center}
+
+
 \section{Diagramas de Actividad}
 
 \end{document}
