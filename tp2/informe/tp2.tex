@@ -61,7 +61,7 @@
 
 \lstset{language=C++,caption={Descriptive Caption Text},label=DescriptiveLabel}
 
-
+\setlength\parindent{0pt}
 %\topmargin = -1cm
 %\textheight = 24cm 
 
@@ -144,27 +144,180 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 
 \section{Casos de Uso}
 
-\subsection{Caso de Uso \textbf{Verificando Cliente}}
+
+\subsection{Caso de Uso \textit{Verificando Cliente}}
 \begin{center}
-\begin{tabular}{|p{9cm} | p{5cm}|}
+\begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Descripci\'on:} Se verifica si el cliente est\'a registrado. Si no lo est\'a,
-se le pide los datos y se lo registra en el sistema.} \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se verifica si el cliente est\'a registrado. Si no lo est\'a, se le pide los datos y se lo registra en el sistema.} \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Operador} \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Pre:} -} \\
 \hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El usuario se ha registrado correctamente (si no lo estaba anteriormente).}\\
+\hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 
 1. El sistema solicita el nombre completo del usuario. & \\ \hline
-...
+2. El operador ingresa el nombre completo. & \\ \hline
+3. El sistema busca los datos del usuario. Si los encuentra, ir al paso 7. & \\ \hline
+4. El sistema no encuenta los datos del cliente y los solicita. & \\ \hline
+5. El operador ingresa todos los datos personales del cliente. & \\ \hline
+6. El sistema informa que el nuevo cliente fue registrado en el sistema. & 6.1 Si el sistema no pudo agregar al nuevo cliente, se informa este hecho y se va al paso 1. \\ \hline
 7. Fin caso de uso & \\ \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El usuario se ha registrado correctamente(si no lo estaba anteriormente)}.\\
+\end{tabular}
+\end{center}
+% NO ESTOY SEGURA SI ESTO ES CASO ALTERNATIVO O NO
+% POR QUE NO ES EL CLIENTE UN ACTOR? A QUIEN LE PIDO LOS DATOS?
+
+\subsection{Caso de Uso \textit{Pidiendo Taxi (Tel\'efono)}}
+\begin{center}
+\begin{tabular}{|p{8cm} | p{8cm}|}
 \hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+
+ & \\ \hline
+ & \\ \hline
 \end{tabular}
 \end{center}
 
+\subsection{Caso de Uso \textit{Cancelando Taxi (Tel\'efono)}}
+\begin{center}
+\begin{tabular}{|p{8cm} | p{8cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+
+ & \\ \hline
+ & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Registrando taxista}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se registra a un nuevo taxista en la lista de taxistas de la empresa del sistema.} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} Administrador RRHH } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} Se seleccion\'o un taxista para contratar, y el taxista seleccionado todav\'ia no es parte de la empresa. } \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} Se agreg\'o al nuevo taxista a la flota de la empresa (la lista de taxistas de la empresa en el sistema). }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El administrador solicita agregar a un nuevo taxista al sistema. & \\ \hline
+2. El sistema pide los datos del nuevo taxista a agregar. & \\ \hline
+3. El administrador ingresa los datos del nuevo taxista. & \\ \hline
+4. El sistema informa que se agreg\'o correctamente al taxista a la flota. & 4.1 Si el taxista ya era parte de la flota, el sistema informa que es imposible agregarlo y retorna al paso 2. \\ \hline
+5. Fin de caso de uso. & \\ \hline
+
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Pidiendo Taxi (Aplicaci\'on)}}
+\begin{center}
+\begin{tabular}{|p{8cm} | p{8cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+
+ & \\ \hline
+ & \\ \hline
+\end{tabular}
+\end{center}
+
+
+\subsection{Caso de Uso \textit{Cancelando Taxi (Aplicaci\'on)}}
+\begin{center}
+\begin{tabular}{|p{8cm} | p{8cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+
+ & \\ \hline
+ & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Puntuando Taxista}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El cliente punt\'ua al taxista seg\'un su experiencia del viaje, y su opini\'on se carga en el sistema.} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} Cliente } \\
+\hline
+\multicolumn{2}{|p{15.5cm}|}{\textbf{Pre:} El cliente realiz\'o un viaje con el taxista puntuado y a\'un no lo evalu\'o por ese viaje (si realiz\'o m\'as de un viaje con el taxista, tiene que tener al menos un viaje por el que no lo puntu\'o). } \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} La opini\'on y el puntaje del cliente sobre el taxista es cargado en el sistema. }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El cliente solicita dar su opini\'on sobre un taxista. & \\ \hline
+2. El sistema muestra todos los taxistas de viajes que a\'un no fueron puntuados. & \\ \hline
+3. El cliente selecciona el taxista de qu\'e viaje desea puntuar. & \\ \hline
+4. El sistema solicita la opini\'on y el puntaje del cliente sobre el taxista del viaje seleccionado. & \\ \hline
+5. El cliente punt\'ua al taxista y opcionalmente deja un comentario escrito. & \\ \hline
+6. El sistema informa que el puntaje fue cargado exitosamente. & 6.1 Si el sistema no pudo cargar el puntaje, se lo informa y se retorna al paso 2.\\ \hline
+7. Fin de caso de uso. & \\ \hline
+
+%% ESTO PERMITE QUE EVALUE MAS DE UNA VEZ AL MISMO TAXISTA
+
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Consultando estad\'isticas}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se consultan las estad\'isticas sobre la conformidad de los usuarios con el sistema y/o sobre el uso del sistema coordinando los taxis. } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} Directivo } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} - } \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El sistema muestra las estad\'isticas pedidas. }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El directivo solicita que el sistema le muestre todas las estad\'isticas existentes. & \\ \hline
+2. El sistema lista todas las estad\'isticas que puede mostrar. & \\ \hline
+3. El directivo selecciona la estad\'istica que quiere conocer. & \\ \hline
+4. El sistema muestra la estad\'istica solicitada y pregunta si se desea conocer otra estad\'istica. &  \\ \hline
+5. El directivo informa que no desea ver m\'as estad\'isticas. & 5.1 Si desea conocer otras estad\'isticas, volver al paso 1. \\ \hline
+6. Fin de caso de uso. & \\ \hline
+\end{tabular}
+\end{center}
+%% NO ESTOY SEGURA COMO PONER LAS DOS RAMAS DEL IF
 
 \section{Diagrama de Clases}
 
