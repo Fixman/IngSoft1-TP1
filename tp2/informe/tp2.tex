@@ -194,16 +194,23 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \begin{center}
 \begin{tabular}{|p{8cm} | p{8cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje pedido telef\'onicamente.} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. El viaje fue pedido telef\'onicamente.} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
  & \\ \hline
  & \\ \hline
 \end{tabular}
@@ -213,13 +220,13 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se registra a un nuevo taxista en la lista de taxistas de la empresa del sistema.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} Se registra a un nuevo taxista en la lista de taxistas de la empresa del sistema.} \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Administrador RRHH } \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} Se seleccion\'o un taxista para contratar, y el taxista seleccionado todav\'ia no es parte de la empresa. } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} Se seleccion\'o un taxista para contratar, y el taxista seleccionado todav\'ia no es parte de la empresa. } \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} Se agreg\'o al nuevo taxista a la flota de la empresa (la lista de taxistas de la empresa en el sistema). }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Se agreg\'o al nuevo taxista a la flota de la empresa (la lista de taxistas de la empresa en el sistema). }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El administrador solicita agregar a un nuevo taxista al sistema. & \\ \hline
@@ -233,15 +240,15 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 
 \subsection{Caso de Uso \textit{Pidiendo Taxi (Aplicaci\'on)}}
 \begin{center}
-\begin{tabular}{|p{8cm} | p{8cm}|}
+\begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} El cliente pide un taxi v\'ia la aplicaci\'on de acuerdo con sus preferencias. } \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Cliente } \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente desea pedir un viaje y lo har\'a via la aplicaci\'on.} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente. Una vez que el taxi comienza a moverse, se muestra su posici\'on a trav\'es de la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 
@@ -253,15 +260,15 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 
 \subsection{Caso de Uso \textit{Cancelando Taxi (Aplicaci\'on)}}
 \begin{center}
-\begin{tabular}{|p{8cm} | p{8cm}|}
+\begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje pedido a trav\'es de la aplicaci\'on.} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\multicolumn{2}{|l|}{\textbf{Actor:} Cliente} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. El viaje fue pedido a trav\'es de la aplicaci\'on.} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 
