@@ -141,7 +141,7 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \\
 \includegraphics[scale=0.75]{diag_CasosDeUso.pdf}
 
-
+En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tomar la alternativa m\'as fiel al enunciado original: optamos por no utilizar una remiser\'ia para los viajes regulares, y por no implementar la alternativa de los mensajes de texto.
 \section{Casos de Uso}
 
 
@@ -155,17 +155,14 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \hline
 \multicolumn{2}{|l|}{\textbf{Pre:} -} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El usuario se ha registrado correctamente (si no lo estaba anteriormente).}\\
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} Se verifica que el usuario est\'a registrado, y si no lo estaba se lo registra en el sistema.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 
 1. El sistema solicita el nombre completo del usuario. & \\ \hline
 2. El operador ingresa el nombre completo. & \\ \hline
-3. El sistema busca los datos del usuario. Si los encuentra, ir al paso 7. & \\ \hline
-4. El sistema no encuenta los datos del cliente y los solicita. & \\ \hline
-5. El operador ingresa todos los datos personales del cliente. & \\ \hline
-6. El sistema informa que el nuevo cliente fue registrado en el sistema. & 6.1 Si el sistema no pudo agregar al nuevo cliente, se informa este hecho y se va al paso 1. \\ \hline
-7. Fin caso de uso & \\ \hline
+3. El sistema busca los datos del usuario. Si no los encuentra, EXTIENDE CASO DE USO \textit{Registrando Cliente}. & \\ \hline
+4. Fin caso de uso & \\ \hline
 \end{tabular}
 \end{center}
 % NO ESTOY SEGURA SI ESTO ES CASO ALTERNATIVO O NO
@@ -184,7 +181,14 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
  & \\ \hline
  & \\ \hline
 \end{tabular}
@@ -251,7 +255,14 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente. Una vez que el taxi comienza a moverse, se muestra su posici\'on a trav\'es de la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
  & \\ \hline
  & \\ \hline
 \end{tabular}
@@ -271,7 +282,14 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
  & \\ \hline
  & \\ \hline
 \end{tabular}
@@ -325,6 +343,26 @@ A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer
 \end{tabular}
 \end{center}
 %% NO ESTOY SEGURA COMO PONER LAS DOS RAMAS DEL IF
+
+\subsection{Caso de Uso \textit{Registrando Cliente}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se registra al nuevo cliente en el sistema.} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} Operador} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} El cliente a registrar no est\'a a\'un en el sistema.} \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El nuevo cliente est\'a registrado en el sistema.}\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El sistema solicita los datos del nuevo cliente. & \\ \hline
+2. El operador ingresa todos los datos personales del cliente. & \\ \hline
+3. El sistema informa que el nuevo cliente fue registrado en el sistema. & 3.1 Si el sistema no pudo agregar al nuevo cliente, se informa este hecho y se va al paso 1. \\ \hline
+4. Fin caso de uso & \\ \hline
+\end{tabular}
+\end{center}
 
 \section{Diagrama de Clases}
 
