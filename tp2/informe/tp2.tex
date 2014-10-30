@@ -196,13 +196,13 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 
 \subsection{Caso de Uso \textit{Cancelando Taxi (Tel\'efono)}}
 \begin{center}
-\begin{tabular}{|p{8cm} | p{8cm}|}
+\begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje pedido telef\'onicamente.} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador, Aplicaci\'on para Celular} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. El viaje fue pedido telef\'onicamente.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. El viaje fue pedido telef\'onicamente. El operador ya conoce qu\'e viaje se desea cancelar.} \\
 \hline
 \multicolumn{2}{|p{14cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
 \hline
@@ -219,6 +219,8 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
  & \\ \hline
 \end{tabular}
 \end{center}
+%%%%%%%% SUPER TURBIO %%%%%%%%%%%%%%
+%% DESDE EL PUNTO DE VISTA DE CASOS DE USO NO ES EXACTAMENTE LO MISMO? SALVO POR LOS REQUIERE
 
 \subsection{Caso de Uso \textit{Registrando taxista}}
 \begin{center}
@@ -248,19 +250,20 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} El cliente pide un taxi v\'ia la aplicaci\'on de acuerdo con sus preferencias. } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Cliente } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Aplicaci\'on para celulares } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente desea pedir un viaje y lo har\'a via la aplicaci\'on.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente desea pedir un viaje y lo har\'a via la aplicaci\'on. El cliente se encuentra verificado. } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente. Una vez que el taxi comienza a moverse, se muestra su posici\'on a trav\'es de la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
+1. La aplicaci\'on le anuncia al sistema que se desea pedir un nuevo viaje. & \\ \hline
+2. El sistema solicita saber si el viaje es simple o regular, y en este \'ultimo caso, cada cu\'anto se realizar\'a el viaje. & \\ \hline
+3. La aplicaci\'on muestra las posibles opciones, y una vez elegidas las opciones deseadas, env\'ia los datos sobre el tipo de viaje y su periodicidad. & \\ \hline
+4. El sistema carga estos datos, y USA CASO DE USO \textit{Eligiendo Taxi}.  & \\ \hline
+5. El sistema env\'ia una copia de los datos seleccionados y pide una confirmaci\'on de los mismos. & \\ \hline
+6. La aplicaci\'on confirma que los datos son correctos (tanto del taxi como del horario y la regularidad del mismo). & 6.1 Si los datos son incorrectos, ir al paso 2. \\ \hline
+7. HAY QUE SEGUIRLOOOOOOOOOO & \\ \hline
  & \\ \hline
  & \\ \hline
  & \\ \hline
@@ -273,25 +276,21 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje pedido a trav\'es de la aplicaci\'on.} \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje.} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Actor:} Cliente} \\
+\multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celulares, Terminal m\'ovil} \\ %%%% AGREGUE UN ACTOR
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. El viaje fue pedido a trav\'es de la aplicaci\'on.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
+1. La aplicaci\'on solicita la cancelaci\'on de un viaje. & \\ \hline
+2. El sistema env\'ia los datos de todos los viajes pedidos pero a\'un no realizados (los viajes regulares entran en esta categor\'ia). & \\ \hline
+3. La aplicaci\'on muestra el listado de viajes pedidos a\'un no realizados, y se selecciona el viaje a cancelar enviando al sistema c\'ual es. & \\ \hline
+4. El sistema recibe esta informaci\'on e informa la cancelaci\'on del viaje. Luego USA CASO DE USO \textit{Cancelando movilizaci\'on de taxi} & \\ \hline %%% QUE PASA SI TODAVIA NO HABIA SIDO ASIGNADO UN TAXISTA?????
+5. La aplicaci\'on recibe la confirmaci\'on de cancelaci\'on y la muestra. & \\ \hline
+6. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -301,20 +300,19 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El cliente punt\'ua al taxista seg\'un su experiencia del viaje, y su opini\'on se carga en el sistema.} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Actor:} Cliente } \\
+\multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celulares } \\
 \hline
-\multicolumn{2}{|p{15.5cm}|}{\textbf{Pre:} El cliente realiz\'o un viaje con el taxista puntuado y a\'un no lo evalu\'o por ese viaje (si realiz\'o m\'as de un viaje con el taxista, tiene que tener al menos un viaje por el que no lo puntu\'o). } \\
+\multicolumn{2}{|p{15.5cm}|}{\textbf{Pre:} El cliente realiz\'o un viaje con el taxista puntuado y a\'un no lo evalu\'o por ese viaje (si realiz\'o m\'as de un viaje con el taxista, tiene que tener al menos un viaje por el que no lo puntu\'o). El cliente est\'a verificado y el viaje que desea puntuar fue pedido por la aplicaci\'on.} \\
 \hline
 \multicolumn{2}{|p{14cm}|}{\textbf{Post:} La opini\'on y el puntaje del cliente sobre el taxista es cargado en el sistema. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-1. El cliente solicita dar su opini\'on sobre un taxista. & \\ \hline
-2. El sistema muestra todos los taxistas de viajes que a\'un no fueron puntuados. & \\ \hline
-3. El cliente selecciona el taxista de qu\'e viaje desea puntuar. & \\ \hline
-4. El sistema solicita la opini\'on y el puntaje del cliente sobre el taxista del viaje seleccionado. & \\ \hline
-5. El cliente punt\'ua al taxista y opcionalmente deja un comentario escrito. & \\ \hline
-6. El sistema informa que el puntaje fue cargado exitosamente. & 6.1 Si el sistema no pudo cargar el puntaje, se lo informa y se retorna al paso 2.\\ \hline
-7. Fin de caso de uso. & \\ \hline
+1. La aplicaci\'on informa que se solicit\'o dar una opini\'on sobre un taxista. & \\ \hline
+2. El sistema carga y env\'ia la informaci\'on de todos los taxistas de viajes que a\'un no fueron puntuados. & \\ \hline
+3. La aplicaci\'on recibe los datos y muestra el listado de taxistas de viajes que a\'un no fueron puntuados y luego se selecciona el taxista de qu\'e viaje desea puntuar.  & \\ \hline
+4. Una vez seleccionado el taxista a puntuar, la aplicaci\'on muestra una interfaz donde puntuar y opcionalmente dejar un mensaje explicativo acerca de la satisfacci\'on con el servicio. Una vez se haya terminado se emitir la opini\'on, la misma se env\'ia al sistema. & \\ \hline
+5. El sistema carga la opini\'on y el puntaje del cliente sobre el taxista del viaje seleccionado. El sistema informa que el puntaje fue cargado exitosamente. & 5.1 Si el sistema no pudo cargar el puntaje, se lo informa a la aplicaci\'on y se retorna al paso 2.\\ \hline
+6. Fin de caso de uso. & \\ \hline
 
 %% ESTO PERMITE QUE EVALUE MAS DE UNA VEZ AL MISMO TAXISTA
 
@@ -344,6 +342,125 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \end{center}
 %% NO ESTOY SEGURA COMO PONER LAS DOS RAMAS DEL IF
 
+\subsection{Caso de Uso \textit{Eligiendo taxi}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El usuario, a trav\'es de la aplicaci\'on, elige qu\'e taxi desea en base a sus preferencias.} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Aplicaci\'on para celular } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El usuario que utiliza la aplicaci\'on est\'a verificado (y obviamente, el viaje se est\'a pidiendo v\'ia la app).} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Se seleccion\'o un taxi para enviar a destino.}\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El sistema brinda informaci\'on sobre taxis y taxistas disponibles.  & \\ \hline
+2. La aplicaci\'on muestra la informaci\'on sobre taxis y taxistas disponibles. & \\ \hline
+3. A trav\'es de la aplicaci\'on se selecciona el taxi deseado, y \'esta se lo informa al sistema. & \\ \hline
+4. El sistema guarda la selecci\'on del taxi. & \\ \hline
+5. Fin de caso de uso. & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Enviando se\~nal de status}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Enviando ubicaci\'on del taxi}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\ %La aplicaci\'on muestra la posici\'on actual del taxi pedido por el cliente, desde que comenz\'o a movilizarse para donde se encuentra el pasajero y hasta llegar a \'el.} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Cancelando movilizaci\'on de taxi (A.K.A. Cancelando viaje)}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se informa a la terminal m\'ovil que el viaje que hab\'ia sido aceptado fue cancelado por el cliente.} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal m\'ovil} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje a cancelar fue asignado al taxi sobre el que se encuentra la terminal m\'ovil, y todav\'ia no fue realizado.} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje pedido fue cancelado.}\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El sistema env\'ia a la terminal m\'ovil la informaci\'on de que el viaje actual ha sido cancelado. & \\ \hline
+2. La terminal m\'ovil muestra esta informaci\'on, y env\'ia una confirmaci\'on de recepci\'on una vez que el taxista lo haya le\'ido. & \\ \hline
+3. El sistema recibe la confirmaci\'on de recepci\'on. & 3.1 Si luego de un tiempo determinado no se recibe la confirmaci\'on, volver a paso 1. \\  \hline
+4. Fin de caso de uso. & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Confirmando viaje}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+\end{tabular}
+\end{center}
+
 \subsection{Caso de Uso \textit{Registrando Cliente}}
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
@@ -363,6 +480,34 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 4. Fin caso de uso & \\ \hline
 \end{tabular}
 \end{center}
+
+
+\subsection{Caso de Uso \textit{}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+\end{tabular}
+\end{center}
+
 
 \section{Diagrama de Clases}
 
