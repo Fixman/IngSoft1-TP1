@@ -580,7 +580,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal M\'ovil } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} - } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:}La terminal le env\'ia la ubicaci\'on del taxi a la aplicaci\'on. }\\
 \hline
