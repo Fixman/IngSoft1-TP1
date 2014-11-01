@@ -145,7 +145,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \section{Casos de Uso}
 
 
-\subsection{Caso de Uso \textit{Verificando Cliente}}
+\subsection{Caso de Uso \textit{Verificando Cliente (Tel\'efono)}}
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
@@ -158,39 +158,72 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \multicolumn{2}{|p{14cm}|}{\textbf{Post:} Se verifica que el usuario est\'a registrado, y si no lo estaba se lo registra en el sistema.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-
 1. El sistema solicita el nombre completo del usuario. & \\ \hline
 2. El operador ingresa el nombre completo. & \\ \hline
 3. El sistema busca los datos del usuario. Si no los encuentra, EXTIENDE CASO DE USO \textit{Registrando Cliente}. & \\ \hline
 4. Fin caso de uso & \\ \hline
 \end{tabular}
 \end{center}
-% NO ESTOY SEGURA SI ESTO ES CASO ALTERNATIVO O NO
-% POR QUE NO ES EL CLIENTE UN ACTOR? A QUIEN LE PIDO LOS DATOS?
+
+\subsection{Caso de Uso \textit{Registrando Cliente (Tel\'efono)}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se registra al nuevo cliente en el sistema.} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} Operador} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} El cliente a registrar no est\'a a\'un en el sistema.} \\
+\hline
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El nuevo cliente est\'a registrado en el sistema.}\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El sistema solicita los datos del nuevo cliente. & \\ \hline
+2. El operador ingresa todos los datos personales del cliente. & \\ \hline
+3. El sistema informa que el nuevo cliente fue registrado en el sistema. & 3.1 Si el sistema no pudo agregar al nuevo cliente, se informa este hecho y se va al paso 1. \\ \hline
+4. Fin caso de uso & \\ \hline
+\end{tabular}
+\end{center}
 
 \subsection{Caso de Uso \textit{Pidiendo Taxi (Tel\'efono)}}
 \begin{center}
-\begin{tabular}{|p{8cm} | p{8cm}|}
+\begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} El cliente pide un taxi telef\'onicamente.} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Actor:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador } \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente desea pedir un viaje y lo har\'a telef\'onicamente.} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente. Una vez que el taxi comienza a moverse, se muestra su posici\'on a trav\'es de la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
+1. El operador recibe una llamada de un cliente que desea pedir un taxi y USA CASO DE USO \textit{Verificando Cliente}. Adem\'as le anuncia al sistema que se desea pedir un nuevo viaje. & \\ \hline
+2. El sistema solicita saber si el viaje es simple o regular, y en este \'ultimo caso, cada cu\'anto se realizar\'a el viaje. & \\ \hline
+3. El operador ve e informa sobre las posibles opciones de viaje, y una vez elegido el tipo de viaje deseado env\'ia los datos sobre el tipo de viaje y su periodicidad. & \\ \hline
+4. El sistema env\'ia una copia de los datos seleccionados y pide una confirmaci\'on de los mismos. & \\ \hline
+5. El operador confirma que los datos del viaje son correctos (tanto del horario como la regularidad del mismo). & 5.1. Si los datos son incorrectos, ir al paso 2. \\ \hline
+6. El sistema carga el dato de nuevo viaje, y elige un taxi autom\'aticamente y USA CASO DE USO \textit{Confirmando viaje}. & 6.1. Si el taxista rechaza el viaje, volver a paso 6. \\ \hline
+7. Fin de caso de uso. & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Confirmando viaje}}
+\begin{center}
+\begin{tabular}{|p{8cm} | p{8cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se env\'ia una solicitud de nuevo pedido a la terminal m\'ovil del taxi elegido. Se confirma la aceptaci\'on del pedido, y se comienza a dirigir hacia la direcci\'on desde donde se pidi\'o el taxi. } \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal m\'ovil} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} Se sabe a qu\'e taxi se le pedir\'a que realice el viaje. Tambi\'en se sabe la direcci\'on desde donde se pidi\'o el viaje.} \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} La terminal m\'ovil inform\'o que se acept\'o el pedido y se comenzar\'a }\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El sistema le env\'ia un pedido para realizar un nuevo viaje a la terminal m\'ovil (inform\'andole la direcci\'on del mismo). & \\ \hline %%% SI NO SE PUEDE COMUNICAR CON LA TERMINAL?
+2. La terminal m\'ovil muestra este nuevo pedido y espera a que se lo acepte (al aceptarlo, se compromete a comenzar a dirigirse a la direcci\'on indicada). Luego se avisa la aceptaci\'on al sistema. & 2.1. Si se rechaza el pedido, la terminal se lo informa al sistema. \newline 2.2. Si pasan m\'as de 10 minutos con la terminal m\'ovil mostrando el nuevo pedido y no se lo responde, se asume que fue rechazado y se act\'ua igual que si se hubiera rechazado activamente. \\ \hline
+3. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -200,27 +233,59 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje pedido telef\'onicamente.} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador, Aplicaci\'on para Celular} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador, Terminal m\'ovil} \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. El viaje fue pedido telef\'onicamente. El operador ya conoce qu\'e viaje se desea cancelar.} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
- & \\ \hline
+1. El operador recibe un pedido de un cliente para cancelar cierto viaje, e ingresa el nombre del cliente que desea cancelar el viaje. & \\ \hline
+2. El sistema muestra todos los viajes pedidos por el cliente que a\'un no fueron realizados (simples y regulares). & 2.1. Si el cliente no figura como registrado en el sistema, el sistema informa que no se encuentra registrado (y asimismo, el operador se lo informar\'a al cliente). \\ \hline
+3. El operador selecciona el viaje a cancelar seg\'un los dichos del cliente. Si se quiere cancelar el pedido regular de un taxi (no se quiere recibir m\'as el servicio de ese viaje regular), EXTIENDE CASO DE USO \textit{Cancelar viaje regular}. \newline Si se quiere cancelar un \'unico viaje, EXTIENDE CASO DE USO \textit{Cancelar viaje simple}. & 3.1. Si no existen viajes pendientes, el sistema informa la imposibilidad de cancelar un viaje. \\ \hline %% ACA HAY UN TEMITA CON EL SIGUIENTE CASO: SI ES JUEVES Y TE LLAMO PARA DECIRTE "MIRA, MAÑANA VIERNES POR FAVOR NO ME MANDES EL TAXI PERO SEGUI MANDANDOMELO TODOS LOS VIERNES" QUE ONDA.
+4. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
-%%%%%%%% SUPER TURBIO %%%%%%%%%%%%%%
-%% DESDE EL PUNTO DE VISTA DE CASOS DE USO NO ES EXACTAMENTE LO MISMO? SALVO POR LOS REQUIERE
+
+\subsection{Caso de Uso \textit{Cancelando Viaje Regular (Tel\'efono)}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela un viaje regular, pedido telef\'onicamente. } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} Operador, Terminal m\'ovil} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} Ya se seleccion\'o un viaje para cancelar, y es regular. } \\
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje regular fue cancelado (ya no se recibir\'a m\'as el servicio), y si hab\'ia un taxi dirigi\'endose al domicilio, se cancel\'o este env\'io.}\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El operador informa que se quiere cancelar un cierto viaje, y el mismo es regular. & \\ \hline
+2. El sistema da de baja el pedido de su listado de viajes a realizar, y USA CASO DE USO \textit{Cancelando movilizaci\'on de taxi}. El sistema informa que el pedido fue cancelado exitosamente. & \\ \hline
+3. El operador informa al cliente que ya fue cancelado su pedido. & \\ \hline
+4. Fin de caso de uso. & \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Caso de Uso \textit{Cancelando Viaje Simple (Tel\'efono)}}
+\begin{center}
+\begin{tabular}{|p{10cm} | p{6cm}|}
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela un \'unico viaje, pedido telef\'onicamente. } \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Actor:} Operador, Terminal m\'ovil} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Pre:} Ya se seleccion\'o un viaje para cancelar.} \\
+\hline
+\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje fue cancelado y al taxi dirigi\'endose al domicilio se le inform\'o de esta cancelaci\'on.}\\
+\hline
+\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
+1. El operador informa que se quiere cancelar un cierto viaje, y el mismo es simple. & \\ \hline
+2. El sistema da de baja el pedido de su listado de viajes a realizar, y si ya hab\'ia sido enviado un taxi al domicilio, EXTIENDE CASO DE USO \textit{Cancelando movilizaci\'on de taxi}. El sistema informa que el pedido fue cancelado exitosamente. & \\ \hline
+3. El operador informa al cliente que ya fue cancelado su pedido. & \\ \hline
+4. Fin de caso de uso. & \\ \hline
+\end{tabular}
+\end{center}
 
 \subsection{Caso de Uso \textit{Registrando taxista}}
 \begin{center}
@@ -415,7 +480,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \end{tabular}
 \end{center}
 
-\subsection{Caso de Uso \textit{Cancelando movilizaci\'on de taxi (A.K.A. Cancelando viaje)}}
+\subsection{Caso de Uso \textit{Cancelando movilizaci\'on de taxi}}
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
@@ -460,27 +525,6 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
  & \\ \hline
 \end{tabular}
 \end{center}
-
-\subsection{Caso de Uso \textit{Registrando Cliente}}
-\begin{center}
-\begin{tabular}{|p{10cm} | p{6cm}|}
-\hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se registra al nuevo cliente en el sistema.} \\
-\hline
-\multicolumn{2}{|l|}{\textbf{Actor:} Operador} \\
-\hline
-\multicolumn{2}{|l|}{\textbf{Pre:} El cliente a registrar no est\'a a\'un en el sistema.} \\
-\hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El nuevo cliente est\'a registrado en el sistema.}\\
-\hline
-\textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-1. El sistema solicita los datos del nuevo cliente. & \\ \hline
-2. El operador ingresa todos los datos personales del cliente. & \\ \hline
-3. El sistema informa que el nuevo cliente fue registrado en el sistema. & 3.1 Si el sistema no pudo agregar al nuevo cliente, se informa este hecho y se va al paso 1. \\ \hline
-4. Fin caso de uso & \\ \hline
-\end{tabular}
-\end{center}
-
 
 \subsection{Caso de Uso \textit{}}
 \begin{center}
