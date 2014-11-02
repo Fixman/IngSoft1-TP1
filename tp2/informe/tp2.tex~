@@ -555,7 +555,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El taxista cambia el status en el que se encuentra mediante la terminal del m\'ovil.} \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal M\'ovil } \\
 \hline
@@ -564,11 +564,11 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} La terminal le env\'ia la se\~nal de status al sistema. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-1. La aplicaci\'on muestra los estados posibles.  & \\ \hline
-2. El taxista selecciona el status en el que se encuentra actualmente. & \\ \hline
-3. La aplicaci\'on env\'ia el estado seleccionado al sistema. & \\ \hline
-4. El sistema lo registra y confirma el cambio de estado. & \\ \hline
-5. Fin de caso de uso. & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
+ & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -580,14 +580,14 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal M\'ovil } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} - } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:}La terminal le env\'ia la ubicaci\'on del taxi a la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La t\'erminal recibe la ubicaci\'on del taxi. & \\ \hline
 2. La t\'erminal le envia la ubicaci\'on del taxi a la aplicaci\'on. & \\ \hline
-3. Fin de caso de Uso. & \\ \hline
+3. Fin de Caso de Uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -598,25 +598,15 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 
 \section{FSM}
 
-Elegimos utilizar un diagrama de FSM para representar la interaccion de la terminal movil con el sistema debido a que nos interesa modelar
-con detalle los estados por los que una terminal puede pasar, y las posibles accioens que esta puede tomar dependiendo el estado en el que se encuentre.
-Esta FSM da mas detalle sobre los casos de uso: 
-\begin{itemize}
-\item Confirmando Viaje
-\item Cancelando Movilizaci\'on de Taxi
-\item Enviando se\~nal de Status
-\item Enviando ubicaci\'on del Taxi
-\end{itemize}
-
 La primer m\'aquina de estado refleja los estados posibles de la terminal en taxi. El taxi
 puede estar: inactivo (no puede recibir viajes), activo (donde puede aceptar viajes de la calle o le pueden llegar pedidos), 
-u ocupado si es que est\'a realizando un viaje.
+u ocupado si es que est\'a realizando un viaje. El otro posible estado es cuando acepta o rechaza los pedidos de taxi que le envian.
 
 La segunda FSM refleja los cambios del sistema cuando se asignan los viajes, se aceptan, se rechazan y las actualizaciones de ubicaci\'on de cada
-taxi. El sistema tambien se entera cuando un taxi determinado esta disponible, no disponible o inactivo.
+taxi. Tambi\'en muestra cuando esta disponible, no disponible o inactivo un taxi determinado.
 
 \begin{center}
-\includegraphics[scale=0.7]{diag_FSM.pdf}
+\includegraphics[scale=0.6]{diag_FSM.pdf}
 \end{center}
 
 
