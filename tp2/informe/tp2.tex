@@ -137,7 +137,10 @@
 
 \section{Diagrama de Casos de Uso}
 
-A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer tp presentado:
+A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer tp presentado. 
+Los actores tienen relaci\'on directa con el modelo de contexto por medio de su nombre.
+Se opto por utilizar taxis de TecnoTaxi para realizar los viajes regulares, y por realizar una aplicacion para celular en lugar del sistema
+de SMS.
 \\
 \includegraphics[scale=0.38]{diag_CasosDeUso.pdf}
 
@@ -620,7 +623,46 @@ taxi. El sistema tambien se entera cuando un taxi determinado esta disponible, n
 \includegraphics[scale=0.7]{diag_FSM.pdf}
 \end{center}
 
-
+\clearpage
 \section{Diagramas de Actividad}
+\subsection{Usuario cancela pedido}
+El diagrama de actividad \textbf{Usuario cancela pedido} muestra el flujo de interacciones entre la aplicaci\'on, el sistema y el usuario 
+al momento de cancelar un pedido. De forma an\'aloga se realiza por via telef\'onica. (El carril de la aplicaci\'on pasa a corresponder al Operador)
+Si el viaje a cancelar es regular, las acciones por parte del taxista pueden no ser necesarias.
+Este diagrama expande los casos de uso:
+\begin{itemize}
+\item Cancelando taxi
+\item Cancelando viaje simple y regular (Aplicaci\'on y tel\'efono)
+\item Cancelando movilizacion del taxi
+\end{itemize}
+
+\begin{center}
+\includegraphics[scale=0.7]{DA_Cancela_Taxi.pdf}
+\end{center}
+
+\clearpage
+\subsection{Determinar si es necesaria una actualizacion de Software}
+El diagrama de actividad \textbf{Determinar si es necesaria una actualizacion de Software} muestra el flujo de acciones que se llevan a cabo
+para cumplir con los espectativas numero 6.2 y 6.3
+
+\begin{center}
+\includegraphics[scale=0.7]{DA_Actualizacion_Soft.pdf}
+\end{center}
+
+\subsection{Usuario pide taxi desde aplicaci\'on}
+El diagrama de actividad \textbf{Usuario pide taxi desde aplicaci\'on} muestra el flujo de interacciones entre la aplicaci\'on, el sistema y el usuario 
+al momento de realizar un pedido simple. De forma an\'aloga se realiza por via telef\'onica, con la diferencia de que el taxi siempre se elije de forma autom\'atica y el cliente no califica al taxista. (El carril de la aplicaci\'on pasa a corresponder al Operador)
+Este diagrama expande los casos de uso:
+\begin{itemize}
+\item Pidiendo Taxi (Tel\'efono y Aplicaci\'on)
+\item Confirmando Viaje
+\item Cancelando movilizacion del taxi
+\item Eligiendo Taxi
+\end{itemize}
+
+
+\begin{center}
+\includegraphics[scale=0.5]{DA_Pide_Taxi.pdf}
+\end{center}
 
 \end{document}
