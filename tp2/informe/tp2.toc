@@ -26,4 +26,4 @@
 \contentsline {section}{\numberline {3}Diagrama de Clases}{11}
 \contentsline {section}{\numberline {4}OCL}{11}
 \contentsline {section}{\numberline {5}FSM}{11}
-\contentsline {section}{\numberline {6}Diagramas de Actividad}{11}
+\contentsline {section}{\numberline {6}Diagramas de Actividad}{12}

@@ -637,15 +637,25 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 
 \section{FSM}
 
+Elegimos utilizar un diagrama de FSM para representar la interaccion de la terminal movil con el sistema debido a que nos interesa modelar
+con detalle los estados por los que una terminal puede pasar, y las posibles accioens que esta puede tomar dependiendo el estado en el que se encuentre.
+Esta FSM da mas detalle sobre los casos de uso: 
+\begin{itemize}
+\item Confirmando Viaje
+\item Cancelando Movilizaci\'on de Taxi
+\item Enviando se\~nal de Status
+\item Enviando ubicaci\'on del Taxi
+\end{itemize}
+
 La primer m\'aquina de estado refleja los estados posibles de la terminal en taxi. El taxi
 puede estar: inactivo (no puede recibir viajes), activo (donde puede aceptar viajes de la calle o le pueden llegar pedidos), 
-u ocupado si es que est\'a realizando un viaje. El otro posible estado es cuando acepta o rechaza los pedidos de taxi que le envian.
+u ocupado si es que est\'a realizando un viaje.
 
 La segunda FSM refleja los cambios del sistema cuando se asignan los viajes, se aceptan, se rechazan y las actualizaciones de ubicaci\'on de cada
-taxi. Tambi\'en muestra cuando esta disponible, no disponible o inactivo un taxi determinado.
+taxi. El sistema tambien se entera cuando un taxi determinado esta disponible, no disponible o inactivo.
 
 \begin{center}
-\includegraphics[scale=0.6]{diag_FSM.pdf}
+\includegraphics[scale=0.7]{diag_FSM.pdf}
 \end{center}
 
 
