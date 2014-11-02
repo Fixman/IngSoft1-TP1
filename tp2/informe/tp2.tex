@@ -218,11 +218,11 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Pre:} Se sabe a qu\'e taxi se le pedir\'a que realice el viaje. Tambi\'en se sabe la direcci\'on desde donde se pidi\'o el viaje.} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} La terminal m\'ovil inform\'o que se acept\'o el pedido y se comenzar\'a }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} La terminal m\'ovil inform\'o que se acept\'o el pedido y se movilizar\'a hacia la direcci\'on indicada}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema le env\'ia un pedido para realizar un nuevo viaje a la terminal m\'ovil (inform\'andole la direcci\'on del mismo). & \\ \hline %%% SI NO SE PUEDE COMUNICAR CON LA TERMINAL?
-2. La terminal m\'ovil muestra este nuevo pedido y espera a que se lo acepte (al aceptarlo, se compromete a comenzar a dirigirse a la direcci\'on indicada). Luego se avisa la aceptaci\'on al sistema. & 2.1. Si se rechaza el pedido, la terminal se lo informa al sistema. \newline 2.2. Si pasan m\'as de 3 minutos con la terminal m\'ovil mostrando el nuevo pedido y no se lo responde, se asume que fue rechazado y se act\'ua igual que si se hubiera rechazado activamente. \\ \hline
+2. La terminal m\'ovil muestra este nuevo pedido y espera a que se lo acepte (al aceptarlo, se compromete a comenzar a dirigirse a la direcci\'on indicada). Luego se avisa la aceptaci\'on al sistema y cambia el estado del taxi a No Disponible. (ver FSM, Terminal en Taxi i). & 2.1. Si se rechaza el pedido, la terminal se lo informa al sistema. \newline 2.2. Si pasan m\'as de 3 minutos con la terminal m\'ovil mostrando el nuevo pedido y no se lo responde, se asume que fue rechazado y se act\'ua igual que si se hubiera rechazado activamente. \\ \hline
 3. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
@@ -497,7 +497,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema env\'ia a la terminal m\'ovil la informaci\'on de que el viaje actual ha sido cancelado. & \\ \hline
-2. La terminal m\'ovil muestra esta informaci\'on, y env\'ia una confirmaci\'on de recepci\'on una vez que el taxista lo haya le\'ido. & \\ \hline
+2. La terminal m\'ovil muestra esta informaci\'on, y env\'ia una confirmaci\'on de recepci\'on una vez que el taxista lo haya le\'ido y cambia el estado del taxi a Disponible. (ver FSM, Terminal en Taxi i) & \\ \hline
 3. El sistema recibe la confirmaci\'on de recepci\'on. & 3.1 Si luego de un tiempo determinado no se recibe la confirmaci\'on, volver a paso 1. \\  \hline
 4. Fin de caso de uso. & \\ \hline
 \end{tabular}
@@ -555,7 +555,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El taxista cambia el status en el que se encuentra mediante la terminal del m\'ovil.} \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El taxista cambia el status en el que se encuentra mediante la terminal del m\'ovil. Ver diagrama FSM, Terminal en Taxi i para detalles sobre los posibles estados.} \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal M\'ovil } \\
 \hline
@@ -585,9 +585,10 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:}La terminal le env\'ia la ubicaci\'on del taxi a la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-1. La t\'erminal recibe la ubicaci\'on del taxi. & \\ \hline
-2. La t\'erminal le envia la ubicaci\'on del taxi a la aplicaci\'on. & \\ \hline
-3. Fin de caso de Uso. & \\ \hline
+1. La t\'erminal recibe la ubicaci\'on del taxi desde el GPS. & \\ \hline
+2. La t\'erminal le envia la ubicaci\'on del taxi al sistema. & \\ \hline
+3. El sistema confirma la recepci\'on de la nueva ubicaci\'on. & \\ \hline
+4. Fin de caso de Uso. & \\ \hline
 \end{tabular}
 \end{center}
 
