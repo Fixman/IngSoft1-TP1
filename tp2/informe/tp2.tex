@@ -751,112 +751,16 @@ la aplicaci\'on, que a\'un no fue realizado. El cliente est\'a verificado. } \\
 
 \section{Diagrama de Clases}
 Por medio del diagrama de clases buscamos mostrar la forma en la que se relacionan los taxistas y clientes entre si, y a su vez con la empresa, adem\'as
-de modelar como quedan registrados los viajes. Una instancia de viaje se crea cuando un usuario reliza un pedido en el sistema. (Ver modelos de FSM y Caso de uso)
+de modelar como quedan registrados los viajes. Una instancia de viaje se crea cuando el taxista confirma el viaje asignado por el sistema. (Ver modelos de FSM y Caso de uso)
 
 
 \begin{center}
 \includegraphics[scale=.38]{diag_Clases.pdf}
-<<<<<<< HEAD
 \end{center}
 
 \newpage
 \section{OCL}
 \input OCL.tex
-=======
-\newpage
-\section{OCL}
-\begin{lstlisting}
-context Cliente
-
-inv: self.viajes.size() <= 1
-
-context Cliente::registrarseAlSistema()
-   	pre: self.registro->empty()
-		and TecnoTaxi.allInstances().usuarios->excludes(this)
-	post: TecnoTaxi.allInstances().usuarios = TecnoTaxi.allInstances().usuarios@pre->including(this)
-
-context Cliente::pedirTaxi(origen: direccion, destino: direccion)
-   	pre: not self.registro->empty() and origen <> destino
-		and this.viajes->select(this.viajes.origen = origen and this.viajes.destino = destino) -> empty();
-	post: this.viajes->select(v.estado = EstadoDelViaje::pedido and this.viajes.origen = origen and this.viajes.destino = destino) -> size() = 1
-
-context Cliente::cancelarPedido(v: viaje)
-	pre: not self.registro->empty() and v.estado <> EstadoDelViaje::enMarcha
-		and self.viajes->includes(v)
-	post: not self.viajes->includes(v)
-
-context Cliente::puntuarTaxista(v:viaje, puntaje: int)
-	pre: not self.registro->empty() and v.estado <> EstadoDelViaje::terminado
-		and self.viajes->includes(v)
-	post: v.satisfaccion = puntaje
-		and v@pre.conductor.puntuacion = (v@pre.conductor.puntuacion@pre * (v@pre.conductor.cantidadviajes - 1) + puntaje) / v@pre.conductor.cantidadviajes
-	
-context Cliente::pedirViajeRegular(frecuencia:time, inicio: time, origen: Direccion, destino: Direccion)
-	pre: not self.registro->empty() and inicio>Today and frecuencia>0
-	post: self.viajesregulares->size() = self.viajesregulares@pre->size() + 1
-		and self.viajesregulares->select(v | v.horario = horario and v.origen = origen and v.destino = destino)->exists()
-
-context Cliente::cancelarViajeRegular(viajeregular: ViajeRegular)
-	pre: self.viajesregulares->includes(viajeregular)
-	post: self.viajesregulares = self.viajesregulares@pre->excluding(viajeregular)
-
-context Cliente
-	inv: if self.registro->empty()
-	     then
-		self.viajes->empty()
-	     endif
-
-context Taxista
-	inv: cantidadViajes >= 0
- 	
-context Taxista
-	inv: puntuacion >= 0
-
-context Taxista
-	inv: self.viajes->size()
-
-context Taxista
-	inv: self.versionSoftware<=self.oficina.versionSistema
-
-context Taxista
-	inv: self.viajes->select(v| v.estado <> EstadoDelViaje::terminado) -> size() <= 1
-
-context Viaje
-	inv: self.origen <> self.destino
-
-context Direccion
-	inv: self.latitud >= 0
-
-context Direccion
-	inv: self.longitud >= 0
-
-context Taxista::aceptarViaje(v: viaje)
-	pre: v.estado = EstadoDelViaje::pedido
-		and self.viajes->select(w | w.estado <> EstadoDelViaje::terminado)->isEmpty() 
-	post: v.estado = EstadoDelViaje::aceptado
-		and self.viajes->includes(v) 
-
-context Taxista::rechazarViaje(v: viaje)
-	pre: v.estado = EstadoDelViaje::pedido
-		and self.viajes->includes(v)
-	post: self.viajes = self.viajes@pre->excluding(v)
-
-context Taxista::terminarViaje(v: viaje)
-	pre: v.estado = EstadoDelViaje::enMarcha
-		and self.viajes->includes(v) 
-	post: v.estado = EstadoDelViaje::terminado
-		and self.viajes->includes(v)
-		and if v.isKindOf(viajeRegular)
-		    then
-			v.pasajero.viajesRegulares->select(w| w.isKindOf(viajeRegular) and w.origen = v.origen and w.destino = v.destino and w.frecuencia = v.frecuencia and w.inicio = v.inicio + v-frecuencia and w.estado == EstadoDelViaje::pedido)->exists()
-		    endif
-
-context Taxista::actualizarSoftware()
-	pre: self.oficina.versionSistema <> self.versionSoftware
-	post: self.oficina.versionSistema = self.versionSoftware
-
-\end{lstlisting}
->>>>>>> 3723e3796ec915a52808d7a905ce6759380b83f8
 
 \section{FSM}
 
