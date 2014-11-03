@@ -1,6 +1,6 @@
 context Cliente
-
-inv: self.viajes.size() <= 1
+	inv: self.viajes->size() <= 1
+	inv: self.registro->empty() implies self.viajes->empty()
 
 context Cliente::registrarseAlSistema()
    	pre: self.registro->empty()
@@ -27,40 +27,17 @@ context Cliente::pedirViajeRegular(frecuencia:time, inicio: time, origen: Direcc
 	pre: not self.registro->empty() and inicio>Today and frecuencia>0
 	post: self.viajesregulares->size() = self.viajesregulares@pre->size() + 1
 		and self.viajesregulares->select(v | v.horario = horario and v.origen = origen and v.destino = destino)->exists()
+		and self.viajesregulares->excluding(self.viajesregulares->select(v | v.horario = horario and v.origen = origen and v.destino = destino)) = self.viajesregulares@pre
 
 context Cliente::cancelarViajeRegular(viajeregular: ViajeRegular)
 	pre: self.viajesregulares->includes(viajeregular)
 	post: self.viajesregulares = self.viajesregulares@pre->excluding(viajeregular)
 
-context Cliente
-	inv: if self.registro->empty()
-	     then
-		self.viajes->empty()
-	     endif
-
 context Taxista
 	inv: cantidadViajes >= 0
- 	
-context Taxista
 	inv: puntuacion >= 0
-
-context Taxista
-	inv: self.viajes->size()
-
-context Taxista
 	inv: self.versionSoftware<=self.oficina.versionSistema
-
-context Taxista
-	inv: self.viajes->select(v| v.estado <> EstadoDelViaje::terminado) -> size() <= 1
-
-context Viaje
-	inv: self.origen <> self.destino
-
-context Direccion
-	inv: self.latitud >= 0
-
-context Direccion
-	inv: self.longitud >= 0
+	inv: self.viajes->select(v| v.estado <> EstadoDelViaje::terminado)->size() <= 1
 
 context Taxista::aceptarViaje(v: viaje)
 	pre: v.estado = EstadoDelViaje::pedido
@@ -78,11 +55,15 @@ context Taxista::terminarViaje(v: viaje)
 		and self.viajes->includes(v) 
 	post: v.estado = EstadoDelViaje::terminado
 		and self.viajes->includes(v)
-		and if v.isKindOf(viajeRegular)
-		    then
-			v.pasajero.viajesRegulares->select(w| w.isKindOf(viajeRegular) and w.origen = v.origen and w.destino = v.destino and w.frecuencia = v.frecuencia and w.inicio = v.inicio + v-frecuencia and w.estado == EstadoDelViaje::pedido)->exists()
-		    endif
+		and v.isKindOf(viajeRegular) implies v.pasajero.viajesRegulares->select(w| w.isKindOf(viajeRegular) and w.origen = v.origen and w.destino = v.destino and w.frecuencia = v.frecuencia and w.inicio = v.inicio + v.frecuencia and w.estado == EstadoDelViaje::pedido)->exists()
 
 context Taxista::actualizarSoftware()
 	pre: self.oficina.versionSistema <> self.versionSoftware
 	post: self.oficina.versionSistema = self.versionSoftware
+
+context Viaje
+	inv: self.origen <> self.destino
+
+context TecnoTaxi::nuevaVersion(version: int)
+	pre: versionSistema < version
+	post: versionSistema = version
