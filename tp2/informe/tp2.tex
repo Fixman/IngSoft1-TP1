@@ -63,7 +63,7 @@
 
 \setlength\parindent{0pt}
 %\topmargin = -1cm
-%\textheight = 24cm 
+%\textheight = 24cm
 
 \begin{document}
 
@@ -92,7 +92,7 @@
 	{\textbf{\large Departamento de Computaci\'{o}n}}\\[1.5em]
     {\textbf{\large Facultad de Ciencias Exactas y Naturales}}\\
     \vspace{35mm}
-    {\LARGE\textbf{\Materia}}\\[1em]    
+    {\LARGE\textbf{\Materia}}\\[1em]
     \vspace{15mm}
     {\Large \textbf{\Titulo}}\\[1em]
     \vspace{15mm}
@@ -199,7 +199,7 @@ Ver el Diagrama de Actividad \textit{Determinar si es necesaria una actualizaci\
 \begin{itemize}
  \item Determinar si hay nuevas tecnlog\'ias disponibles
  \item Investigar tecnlog\'ias de la competencia
- 
+
 \end{itemize}
 
 
@@ -226,7 +226,7 @@ Ver Modelo de FSM
  \item Enviar ubicaci\'on del taxista
  \item Enviar informaci\'on sobre cambio de estado en la disponibilidad del taxi
  \item Mostrar notificaci\'on de nuevo viaje
- 
+
  \end{itemize}
 
 \subsection{Taxista}
@@ -245,14 +245,14 @@ Ver Modelo de FSM
 
 
 \subsection{Cliente}
-Ver Casos de uso \textit{Registrando Cliente, Pidiendo taxi, Eligiendo taxi} y \textit{Cancelando taxi} y 
+Ver Casos de uso \textit{Registrando Cliente, Pidiendo taxi, Eligiendo taxi} y \textit{Cancelando taxi} y
 Diagrama de actividad \textit{Usuario pide taxi desde la aplicaci'on}
 \begin{itemize}
 \item Dar datos personales
 \item Demandar taxi
 \item \textbf Alguna de las siguientes:
 	\begin{itemize}
-		\item Demandar m\'ovil via la aplicaci\'on 
+		\item Demandar m\'ovil via la aplicaci\'on
 		\item Demandar m\'ovil mediante un mensaje de texto
 	\end{itemize}
 \item Solicitar pedido de cancelacion del viaje
@@ -270,7 +270,7 @@ Ver Casos de uso \textit{Registrando Cliente, Pidiendo taxi} y \textit{Canceland
 \end{itemize}
 
 \subsection{Aplicaci\'on para celular}
-Ver Casos de uso \textit{Registrando Cliente, Pidiendo taxi, Eligiendo taxi} y \textit{Cancelando taxi} y 
+Ver Casos de uso \textit{Registrando Cliente, Pidiendo taxi, Eligiendo taxi} y \textit{Cancelando taxi} y
 Diagrama de actividad \textit{Usuario pide taxi desde la aplicaci'on}
 \begin{itemize}
 \item Obtener datos del cliente y enviarlos al sistema
@@ -278,17 +278,18 @@ Diagrama de actividad \textit{Usuario pide taxi desde la aplicaci'on}
 \item Enviar pedido de cancelaci\'on del viaje
 \item Mostrar informaci\'on sobre taxis y taxistas disponibles
 \item Informar confirmaci\'on de viaje y tiempo aproximado de espera
-\item Mostrar ubicaci\'on del taxi movilizado 
+\item Mostrar ubicaci\'on del taxi movilizado
 \end{itemize}
 
+\newpage
 \section{Diagrama de Casos de Uso}
 
-A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer tp presentado. 
+A continuaci\'on exponemos el diagrama de casos de uso bas\'andonos en el primer tp presentado.
 Los actores tienen relaci\'on directa con el modelo de contexto por medio de su nombre.
 Se opto por utilizar taxis de TecnoTaxi para realizar los viajes regulares, y por realizar una aplicacion para celular en lugar del sistema
 de SMS.
 \\
-\includegraphics[scale=0.38]{diag_CasosDeUso.pdf}
+\includegraphics[width=1.3\textwidth,keepaspectratio,angle=90]{diag_CasosDeUso.pdf}
 
 En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tomar la alternativa m\'as fiel al enunciado original: optamos por no utilizar una remiser\'ia para los viajes regulares, y por no implementar la alternativa de los mensajes de texto.
 \section{Casos de Uso}
@@ -310,7 +311,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 1. El sistema solicita el nombre completo del usuario. & \\ \hline
 2. El operador ingresa el nombre completo. & \\ \hline
 3. El sistema busca los datos del usuario. Si no los encuentra, EXTIENDE CASO DE USO \textit{Registrando Cliente}. & \\ \hline
-4. Fin caso de uso & \\ \hline
+4. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -330,7 +331,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 1. El sistema solicita los datos del nuevo cliente. & \\ \hline
 2. El operador ingresa todos los datos personales del cliente. & \\ \hline
 3. El sistema informa que el nuevo cliente fue registrado en el sistema. & 3.1 Si el sistema no pudo agregar al nuevo cliente, se informa este hecho y se va al paso 1. \\ \hline
-4. Fin caso de uso & \\ \hline
+4. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -477,7 +478,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 1. El sistema solicita el nombre completo del usuario. & \\ \hline
 2. La aplicaci\'on muestra la solicitud e ingresa el nombre completo. & \\ \hline
 3. El sistema busca los datos del usuario. Si no los encuentra, EXTIENDE CASO DE USO \textit{Registrando Cliente}. & \\ \hline
-4. Fin caso de uso & \\ \hline
+4. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -497,7 +498,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 1. El sistema solicita los datos del nuevo cliente. & \\ \hline
 2. La aplicaci\'on muestra la solicitud e ingresa todos los datos personales del cliente. & \\ \hline
 3. El sistema informa que el nuevo cliente fue registrado en el sistema. & 3.1 Si el sistema no pudo agregar al nuevo cliente, se informa este hecho y se va al paso 1. \\ \hline
-4. Fin caso de uso & \\ \hline
+4. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -725,19 +726,20 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on: } Se env\'ia la posici\'on actual del taxi pedido por el cliente. } \\  \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on: } Se env\'ia la posici\'on actual del taxi pedido por el cliente. }  \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal M\'ovil } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} - } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente pidi\'o un viaje simple v\'ia
+la aplicaci\'on, que a\'un no fue realizado. El cliente est\'a verificado. } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:}La terminal le env\'ia la ubicaci\'on del taxi a la aplicaci\'on. }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} La terminal le env\'ia la ubicaci\'on del taxi a la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
-1. La t\'erminal recibe la ubicaci\'on del taxi desde el GPS. & \\ \hline
-2. La t\'erminal le envia la ubicaci\'on del taxi al sistema. & \\ \hline
+1. La terminal recibe la ubicaci\'on del taxi desde el GPS. & \\ \hline
+2. La terminal le env\'ia la ubicaci\'on del taxi al sistema. & \\ \hline
 3. El sistema confirma la recepci\'on de la nueva ubicaci\'on. & \\ \hline
-4. Fin de caso de Uso. & \\ \hline
+4. Fin de caso de uso. & \\ \hline
 \end{tabular}
 \end{center}
 
@@ -756,7 +758,7 @@ de modelar como quedan registrados los viajes. Una instancia de viaje se crea cu
 
 Elegimos utilizar un diagrama de FSM para representar la interaccion de la terminal movil con el sistema debido a que nos interesa modelar
 con detalle los estados por los que una terminal puede pasar, y las posibles accioens que esta puede tomar dependiendo el estado en el que se encuentre.
-Esta FSM da mas detalle sobre los casos de uso: 
+Esta FSM da mas detalle sobre los casos de uso:
 \begin{itemize}
 \item Confirmando Viaje
 \item Cancelando Movilizaci\'on de Taxi
@@ -765,7 +767,7 @@ Esta FSM da mas detalle sobre los casos de uso:
 \end{itemize}
 
 La primer m\'aquina de estado refleja los estados posibles de la terminal en taxi. El taxi
-puede estar: inactivo (no puede recibir viajes), activo (donde puede aceptar viajes de la calle o le pueden llegar pedidos), 
+puede estar: inactivo (no puede recibir viajes), activo (donde puede aceptar viajes de la calle o le pueden llegar pedidos),
 u ocupado si es que est\'a realizando un viaje.
 
 La segunda FSM refleja los cambios del sistema cuando se asignan los viajes, se aceptan, se rechazan y las actualizaciones de ubicaci\'on de cada
@@ -778,7 +780,7 @@ taxi. El sistema tambien se entera cuando un taxi determinado esta disponible, n
 \clearpage
 \section{Diagramas de Actividad}
 \subsection{Usuario cancela pedido}
-El diagrama de actividad \textbf{Usuario cancela pedido} muestra el flujo de interacciones entre la aplicaci\'on, el sistema y el usuario 
+El diagrama de actividad \textbf{Usuario cancela pedido} muestra el flujo de interacciones entre la aplicaci\'on, el sistema y el usuario
 al momento de cancelar un pedido. De forma an\'aloga se realiza por via telef\'onica. (El carril de la aplicaci\'on pasa a corresponder al Operador)
 Si el viaje a cancelar es regular, las acciones por parte del taxista pueden no ser necesarias.
 Este diagrama expande los casos de uso:
@@ -802,7 +804,7 @@ para cumplir con los espectativas numero 6.2 y 6.3
 \end{center}
 
 \subsection{Usuario pide taxi desde aplicaci\'on}
-El diagrama de actividad \textbf{Usuario pide taxi desde aplicaci\'on} muestra el flujo de interacciones entre la aplicaci\'on, el sistema y el usuario 
+El diagrama de actividad \textbf{Usuario pide taxi desde aplicaci\'on} muestra el flujo de interacciones entre la aplicaci\'on, el sistema y el usuario
 al momento de realizar un pedido simple. De forma an\'aloga se realiza por via telef\'onica, con la diferencia de que el taxi siempre se elije de forma autom\'atica y el cliente no califica al taxista. (El carril de la aplicaci\'on pasa a corresponder al Operador)
 Este diagrama expande los casos de uso:
 \begin{itemize}
