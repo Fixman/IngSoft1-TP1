@@ -390,7 +390,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador, Terminal m\'ovil} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje existe y todavia no fue realizado} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje existe y todav\'ia no fue realizado} \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado y borrado de los viajes a realizar. El taxista es informado}\\
 \hline
@@ -584,13 +584,13 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celulares, Terminal m\'ovil} \\ %%%% AGREGUE UN ACTOR
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje existe y todav\'ia no fue realizado. } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado y el taxista es informado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La aplicaci\'on solicita la cancelaci\'on de un viaje. & \\ \hline
-2. El sistema env\'ia los datos de todos los viajes pedidos pero a\'un no realizados (los viajes regulares entran en esta categor\'ia). & \\ \hline
+2. El sistema env\'ia los datos de todos los viajes pedidos por el cliente, pero a\'un no realizados (los viajes regulares entran en esta categor\'ia). & \\ \hline
 3. La aplicaci\'on muestra el listado de viajes pedidos a\'un no realizados, y se selecciona el viaje a cancelar enviando al sistema c\'ual es. & \\ \hline
 4. El sistema recibe esta informaci\'on e informa la cancelaci\'on del viaje. Luego USA CASO DE USO \textit{Cancelando movilizaci\'on de taxi} & \\ \hline %%% QUE PASA SI TODAVIA NO HABIA SIDO ASIGNADO UN TAXISTA?????
 5. La aplicaci\'on recibe la confirmaci\'on de cancelaci\'on y la muestra. & \\ \hline
@@ -672,7 +672,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La aplicaci\'on informa que se solicit\'o dar una opini\'on sobre un taxista. & \\ \hline
-2. El sistema carga y env\'ia la informaci\'on de todos los taxistas de viajes que a\'un no fueron puntuados. & \\ \hline
+2. El sistema carga y env\'ia la informaci\'on de todos los taxistas de viajes realizados por el usuario que a\'un no fueron puntuados. & \\ \hline
 3. La aplicaci\'on recibe los datos y muestra el listado de taxistas de viajes que a\'un no fueron puntuados y luego se selecciona el taxista de qu\'e viaje desea puntuar.  & \\ \hline
 4. Una vez seleccionado el taxista a puntuar, la aplicaci\'on muestra una interfaz donde puntuar y opcionalmente dejar un mensaje explicativo acerca de la satisfacci\'on con el servicio. Una vez se haya terminado se emitir la opini\'on, la misma se env\'ia al sistema. & \\ \hline
 5. El sistema carga la opini\'on y el puntaje del cliente sobre el taxista del viaje seleccionado. El sistema informa que el puntaje fue cargado exitosamente. & 5.1 Si el sistema no pudo cargar el puntaje, se lo informa a la aplicaci\'on y se retorna al paso 2.\\ \hline
