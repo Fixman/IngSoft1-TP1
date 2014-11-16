@@ -310,7 +310,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|l|}{\textbf{Pre:} -} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} Se verifica que el usuario est\'a registrado, y si no lo estaba se lo registra en el sistema.}\\
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El cliente se encuentra identificado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema solicita el nombre completo del usuario. & \\ \hline
@@ -344,13 +344,13 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} El cliente pide un taxi telef\'onicamente.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Descripci\'on:} El cliente desea pedir un viaje y lo har\'a telef\'onicamente.} \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente desea pedir un viaje y lo har\'a telef\'onicamente.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} - } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente. Una vez que el taxi comienza a moverse, se muestra su posici\'on a trav\'es de la aplicaci\'on. }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El operador recibe una llamada de un cliente que desea pedir un taxi y USA CASO DE USO \textit{Verificando Cliente}. Adem\'as le anuncia al sistema que se desea pedir un nuevo viaje. & \\ \hline
@@ -371,9 +371,9 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal m\'ovil} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} Se sabe a qu\'e taxi se le pedir\'a que realice el viaje. Tambi\'en se sabe la direcci\'on desde donde se pidi\'o el viaje.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} Se conocen la direcci\'on del viaje y el taxista elegido para realizar el viaje.} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} La terminal m\'ovil inform\'o que se acept\'o el pedido y se movilizar\'a hacia la direcci\'on indicada}\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es aceptado y el taxi movilizado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema le env\'ia un pedido para realizar un nuevo viaje a la terminal m\'ovil (inform\'andole la direcci\'on del mismo). & \\ \hline %%% SI NO SE PUEDE COMUNICAR CON LA TERMINAL?
@@ -390,9 +390,9 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Operador, Terminal m\'ovil} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. El viaje fue pedido telef\'onicamente. El operador ya conoce qu\'e viaje se desea cancelar.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje existe y todavia no fue realizado} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado y borrado de los viajes a realizar. El taxista es informado}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El operador recibe un pedido de un cliente para cancelar cierto viaje, e ingresa el nombre del cliente que desea cancelar el viaje. & \\ \hline
@@ -411,9 +411,9 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Operador, Terminal m\'ovil} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} Ya se seleccion\'o un viaje para cancelar.} \\
+\multicolumn{2}{|l|}{\textbf{Pre:} El viaje existe y todavia no fue realizado} \\
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje fue cancelado y al taxi dirigi\'endose al domicilio se le inform\'o de esta cancelaci\'on.}\\
+\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje es cancelado y el taxista es informado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El operador informa que se quiere cancelar un cierto viaje, y el mismo es simple. & \\ \hline
@@ -427,13 +427,13 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela un viaje regular, pedido telef\'onicamente. } \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela un viaje regular (ya no se recibir\'a m\'as el servicio) } \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Operador, Terminal m\'ovil} \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Pre:} Ya se seleccion\'o un viaje para cancelar, y es regular. } \\
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje regular fue cancelado (ya no se recibir\'a m\'as el servicio), y si hab\'ia un taxi dirigi\'endose al domicilio, se cancel\'o este env\'io.}\\
+\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje regular fue cancelado}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El operador informa que se quiere cancelar un cierto viaje, y el mismo es regular. & \\ \hline
@@ -443,7 +443,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \end{tabular}
 \end{center}
 
-\subsection{Caso de Uso \textit{Registrando taxista}}
+\subsection{Caso de Uso \textit{Registrando taxista}}	
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
@@ -451,7 +451,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Administrador RRHH } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} Se seleccion\'o un taxista para contratar, y el taxista seleccionado todav\'ia no es parte de la empresa. } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El taxista seleccionado no es parte de la empresa. } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} Se agreg\'o al nuevo taxista a la flota de la empresa (la lista de taxistas de la empresa en el sistema). }\\
 \hline
@@ -477,7 +477,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|l|}{\textbf{Pre:} -} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} Se verifica que el usuario est\'a registrado, y si no lo estaba se lo registra en el sistema.}\\
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} El cliente se encuentra identificado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema solicita el nombre completo del usuario. & \\ \hline
@@ -495,7 +495,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celular} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} El cliente a registrar no est\'a a\'un en el sistema.} \\
+\multicolumn{2}{|l|}{\textbf{Pre:} El cliente no est\'a en el sistema.} \\
 \hline
 \multicolumn{2}{|p{14cm}|}{\textbf{Post:} El nuevo cliente est\'a registrado en el sistema.}\\
 \hline
@@ -516,9 +516,9 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Aplicaci\'on para celulares } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente desea pedir un viaje y lo har\'a via la aplicaci\'on. El cliente se encuentra verificado. } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente se encuentra verificado. } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente. Una vez que el taxi comienza a moverse, se muestra su posici\'on a trav\'es de la aplicaci\'on. }\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Un taxi se env\'ia seg\'un el pedido del cliente y su posici\'on es mostrada a trav\'es de la aplicaci\'on. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La aplicaci\'on le anuncia al sistema que se desea pedir un nuevo viaje. & \\ \hline
@@ -541,9 +541,9 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Aplicaci\'on para celular} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El usuario que utiliza la aplicaci\'on est\'a verificado. Se est\'a pidiendo un viaje simple v\'ia la aplicaci\'on.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El usuario que utiliza la aplicaci\'on est\'a verificado.} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Se seleccion\'o un taxi para enviar a destino.}\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Se seleccion\'o un taxi para realizar el viaje simple.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema brinda informaci\'on sobre taxis y taxistas disponibles.  & \\ \hline
@@ -562,9 +562,9 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Aplicaci\'on para celular } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El usuario que utiliza la aplicaci\'on est\'a verificado. El viaje que se est\'a pidiendo es regular, v\'ia la aplicaci\'on.} \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El usuario que utiliza la aplicaci\'on est\'a verificado.} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Se seleccion\'o un perfil de taxi para enviar a destino.}\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} Se seleccion\'o un perfil de taxi para los viajes regulares.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema brinda informaci\'on sobre los perfiles que se pueden elegir (las condiciones preferidas sobre el taxi o taxista a enviar).  & \\ \hline
@@ -580,13 +580,13 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje.} \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela el pedido de un viaje que todavia no fue realizado.} \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celulares, Terminal m\'ovil} \\ %%%% AGREGUE UN ACTOR
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje que se desea cancelar ya fue pedido pero todav\'ia no fue realizado. } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado, informando al taxista de su cancelaci\'on y borr\'andolo de los viajes a realizar.}\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje es cancelado y el taxista es informado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La aplicaci\'on solicita la cancelaci\'on de un viaje. & \\ \hline
@@ -606,9 +606,9 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celulares, Terminal m\'ovil} \\
 \hline
-\multicolumn{2}{|l|}{\textbf{Pre:} Ya se seleccion\'o un viaje para cancelar. El usuario est\'a verificado.} \\
+\multicolumn{2}{|l|}{\textbf{Pre:} El viaje existe y todavia no fue realizado. El usuario est\'a verificado.} \\
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje fue cancelado y al taxi dirigi\'endose al domicilio se le inform\'o de esta cancelaci\'on.}\\
+\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje es cancelado y el taxista es informado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La aplicaci\'on informa que se quiere cancelar un cierto viaje, y el mismo es simple. & \\ \hline
@@ -622,13 +622,13 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela un viaje regular, pedido v\'ia la aplicaci\'on. } \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} Se cancela un viaje regular (ya no se recibir\'a m\'as el servicio), pedido v\'ia la aplicaci\'on. } \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celular, Terminal m\'ovil} \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Pre:} Ya se seleccion\'o un viaje para cancelar, y es regular. El usuario est\'a verificado.} \\
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje regular fue cancelado (ya no se recibir\'a m\'as el servicio), y si hab\'ia un taxi dirigi\'endose al domicilio, se cancel\'o este env\'io.}\\
+\multicolumn{2}{|p{16cm}|}{\textbf{Post:} El viaje regular fue cancelado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La aplicaci\'on informa que se quiere cancelar un cierto viaje, y el mismo es regular. & \\ \hline
@@ -648,7 +648,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El viaje a cancelar fue asignado al taxi sobre el que se encuentra la terminal m\'ovil, y todav\'ia no fue realizado.} \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje pedido fue cancelado.}\\
+\multicolumn{2}{|p{15cm}|}{\textbf{Post:} El viaje fue cancelado.}\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. El sistema env\'ia a la terminal m\'ovil la informaci\'on de que el viaje actual ha sido cancelado. & \\ \hline
@@ -662,13 +662,13 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \begin{center}
 \begin{tabular}{|p{10cm} | p{6cm}|}
 \hline
-\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El cliente punt\'ua al taxista seg\'un su experiencia del viaje, y su opini\'on se carga en el sistema.} \\
+\multicolumn{2}{|p{16cm}|}{\textbf{Descripci\'on:} El cliente punt\'ua al taxista seg\'un su experiencia del viaje, y su opini\'on se carga en el sistema (si realiz\'o m\'as de un viaje con el taxista, tiene que tener al menos un viaje por el que no lo puntu\'o)} \\
 \hline
 \multicolumn{2}{|l|}{\textbf{Actor:} Aplicaci\'on para celulares } \\
 \hline
-\multicolumn{2}{|p{15.5cm}|}{\textbf{Pre:} El cliente realiz\'o un viaje con el taxista puntuado y a\'un no lo evalu\'o por ese viaje (si realiz\'o m\'as de un viaje con el taxista, tiene que tener al menos un viaje por el que no lo puntu\'o). El cliente est\'a verificado y el viaje que desea puntuar fue pedido por la aplicaci\'on.} \\
+\multicolumn{2}{|p{15.5cm}|}{\textbf{Pre:} El cliente tiene un viaje para puntuar y est\'a verificado.} \\
 \hline
-\multicolumn{2}{|p{14cm}|}{\textbf{Post:} La opini\'on y el puntaje del cliente sobre el taxista es cargado en el sistema. }\\
+\multicolumn{2}{|p{14cm}|}{\textbf{Post:} La opini\'on y el puntaje del cliente sobre el taxista son cargados al el sistema. }\\
 \hline
 \textbf{Curso Normal}  & \textbf{Curso Alternativo} \\ \hline
 1. La aplicaci\'on informa que se solicit\'o dar una opini\'on sobre un taxista. & \\ \hline
@@ -735,8 +735,7 @@ En los lugares donde hubiere un O-ref en el diagrama de objetivos, decidimos tom
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Actor:} Terminal M\'ovil } \\
 \hline
-\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} El cliente pidi\'o un viaje simple v\'ia
-la aplicaci\'on, que a\'un no fue realizado. El cliente est\'a verificado. } \\
+\multicolumn{2}{|p{15cm}|}{\textbf{Pre:} - } \\
 \hline
 \multicolumn{2}{|p{15cm}|}{\textbf{Post:} La terminal le env\'ia la ubicaci\'on del taxi a la aplicaci\'on. }\\
 \hline
@@ -779,7 +778,7 @@ puede estar: inactivo (no puede recibir viajes), activo (donde puede aceptar via
 u ocupado si es que est\'a realizando un viaje.
 
 La segunda FSM refleja los cambios del sistema cuando se asignan los viajes, se aceptan, se rechazan y las actualizaciones de ubicaci\'on de cada
-taxi. El sistema tambien se entera cuando un taxi determinado esta disponible, no disponible o inactivo.
+taxi. El sistema tambi\'en se entera cuando un taxi determinado esta disponible, no disponible o inactivo. Como se puede apreciar en el diagrama de Clases y el OCL, cada viaje vincula un \'unico taxista con un \'unico pasajero. Si el pasajero no elige un taxi, el sistema eligir\'a autom\'aticamente por el, y el viaje sera ofrecido a otro taxista solo si el primero lo rechaza.
 
 \begin{center}
 \includegraphics[scale=0.7]{diag_FSM.pdf}
