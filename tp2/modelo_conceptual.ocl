@@ -1,77 +1,48 @@
+context Direccion
+    -- La latitud es un numero del 0 al 90, y la longitud del 0 al 180.
+    -- Es más simple aceptar que los valores sean negativos que agregar direcciones cardinales.
+    inv: self.latitud >= -90 and self.latitud < 90
+    inv: self.longitud >= -180 and self.longitud < 180
+    
 context Cliente
-	inv: self.viajes->size() <= 1
-	inv: self.registro->empty() implies self.viajes->empty()
+    -- Si el usuario esta registrado, entonces tiene que tener completados los datos de registro.
+    inv: self.registrado implies not self.datosRegistro->empty()
 
-context Cliente::registrarseAlSistema()
-   	pre: self.registro->empty()
-		and TecnoTaxi.allInstances().usuarios->excludes(this)
-	post: TecnoTaxi.allInstances().usuarios = TecnoTaxi.allInstances().usuarios@pre->including(this)
+    -- Si el usuario no está registrado, entonces no tiene que tener ningún viaje.
+    inv: not self.registrado implies self.viajes->isEmpty()
 
-context Cliente::pedirTaxi(origen: direccion, destino: direccion)
-   	pre: not self.registro->empty()
-		and origen <> destino
-		and this.viajes->select(this.viajes.origen = origen
-		and this.viajes.destino = destino) -> empty()
-	post: this.viajes->select(v.estado = EstadoDelViaje::pedido
-		and this.viajes.origen = origen
-		and this.viajes.destino = destino) -> size() = 1
-
-context Cliente::cancelarPedido(v: viaje)
-	pre: not self.registro->empty()
-		and v.estado <> EstadoDelViaje::enMarcha
-		and self.viajes->includes(v)
-	post: not self.viajes->includes(v)
-
-context Cliente::puntuarTaxista(v:viaje, puntaje: int)
-	pre: not self.registro->empty()
-		and v.estado <> EstadoDelViaje::terminado
-		and self.viajes->includes(v)
-	post: v.satisfaccion = puntaje
-		and v@pre.conductor.puntuacion = (v@pre.conductor.puntuacion@pre * (v@pre.conductor.cantidadviajes - 1) + puntaje) / v@pre.conductor.cantidadviajes
-	
-context Cliente::pedirViajeRegular(frecuencia:time, inicio: time, origen: Direccion, destino: Direccion)
-	pre: not self.registro->empty() and inicio>Today and frecuencia>0
-	post: self.viajesregulares->size() = self.viajesregulares@pre->size() + 1
-		and self.viajesregulares->select(v | v.horario = horario
-		and v.origen = origen
-		and v.destino = destino)->exists()
-		and self.viajesregulares->excluding(self.viajesregulares->select(v | v.horario = horario and v.origen = origen and v.destino = destino)) = self.viajesregulares@pre
-
-context Cliente::cancelarViajeRegular(viajeregular: ViajeRegular)
-	pre: self.viajesregulares->includes(viajeregular)
-	post: self.viajesregulares = self.viajesregulares@pre->excluding(viajeregular)
-
+    -- Cada cliente tine a lo sumo un viaje activo a la vez.
+    inv: self.viajes->select(v | v.estado <> EstadoDelViaje::terminado)->size() <= 1
+       
 context Taxista
-	inv: cantidadViajes >= 0
-	inv: puntuacion >= 0
-	inv: self.versionSoftware<=self.oficina.versionSistema
-	inv: self.viajes->select(v| v.estado <> EstadoDelViaje::terminado)->size() <= 1
+    -- La cantidad de viajes es un numero no negativo.
+    inv: self.cantidadViajes >= 0
 
-context Taxista::aceptarViaje(v: viaje)
-	pre: v.estado = EstadoDelViaje::pedido
-		and self.viajes->select(w | w.estado <> EstadoDelViaje::terminado)->isEmpty() 
-	post: v.estado = EstadoDelViaje::aceptado
-		and self.viajes->includes(v) 
+    -- La puntuación es un número del 0 al 5.
+    inv: self.puntuacion >= 0 and self.puntuacion < 6
 
-context Taxista::rechazarViaje(v: viaje)
-	pre: v.estado = EstadoDelViaje::pedido
-		and self.viajes->includes(v)
-	post: self.viajes = self.viajes@pre->excluding(v)
-
-context Taxista::terminarViaje(v: viaje)
-	pre: v.estado = EstadoDelViaje::enMarcha
-		and self.viajes->includes(v) 
-	post: v.estado = EstadoDelViaje::terminado
-		and self.viajes->includes(v)
-		and v.isKindOf(viajeRegular) implies v.pasajero.viajesRegulares->select(w | w.isKindOf(viajeRegular) and w.origen = v.origen and w.destino = v.destino and w.frecuencia = v.frecuencia and w.inicio = v.inicio + v.frecuencia and w.estado == EstadoDelViaje::pedido)->exists()
-
-context Taxista::actualizarSoftware()
-	pre: self.oficina.versionSistema <> self.versionSoftware
-	post: self.oficina.versionSistema = self.versionSoftware
+context Taxi
+    -- Cada taxi tiene a lo sumo un viaje activo a la vez.
+	inv: self.viajes->select(v | v.estado <> EstadoDelViaje::terminado)->size() <= 1
 
 context Viaje
+    -- El origen y el destion tienen que ser lugares diferentes.
 	inv: self.origen <> self.destino
 
-context TecnoTaxi::nuevaVersion(version: int)
-	pre: versionSistema < version
-	post: versionSistema = version
+    -- El costo tiene que ser un número positivo.
+    inv: self.costo > 0
+
+    -- La satisfacción es un número del 0 al 5.
+    inv: self.satisfaccion >= 0 and self.satisfaccion < 6
+
+    -- Si un taxista acepta el viaje, entonces el viaje deja de estar pedido y viceversa.
+    inv: self.estado <> EstadoDelViaje::pedido implies not self.conductor->empty()
+    inv: self.conductor->empty() implies self.estado <> EstadoDelViaje::pedido
+
+    -- Si un taxi llegó al destino, el viaje de estar en marcha.
+    -- Notar que el viaje no necesariamente terminó; puede no haber empezado.
+    inv: self.conductor.ubicacion = self.destion implies estado <> EstadoDelViaje::enMarcha
+
+    -- Si un taxi llegó al origen del viaje, el viaje tiene que empezar.
+    inv: self.conductor.ubicacion = self.origen implies self.estado <> EstadoDelViaje::aceptado
+
