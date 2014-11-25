@@ -2,7 +2,7 @@
 \begin{lstlisting}[frame=single]
 context Direccion
     -- La latitud es un numero del 0 al 90, y la longitud del 0 al 180.
-    -- Es más simple aceptar que los valores sean negativos que agregar direcciones cardinales.
+    -- Es mas simple aceptar que los valores sean negativos que agregar direcciones cardinales.
     inv: self.latitud >= -90 and self.latitud < 90
     inv: self.longitud >= -180 and self.longitud < 180
     
@@ -10,7 +10,7 @@ context Cliente
     -- Si el usuario esta registrado, entonces tiene que tener completados los datos de registro.
     inv: self.registrado implies not self.datosRegistro->empty()
 
-    -- Si el usuario no está registrado, entonces no tiene que tener ningún viaje.
+    -- Si el usuario no esta registrado, entonces no tiene que tener ningun viaje.
     inv: not self.registrado implies self.viajes->isEmpty()
 
     -- Cada cliente tine a lo sumo un viaje activo a la vez.
@@ -20,7 +20,7 @@ context PerfilTaxista
     -- La cantidad de viajes es un numero no negativo.
     inv: self.cantidadViajes >= 0
 
-    -- La puntuación es un número del 0 al 5.
+    -- La puntuacion es un numero del 0 al 5.
     inv: self.puntuacion >= 0 and self.puntuacion <= 5
 
 context Taxista:
@@ -39,18 +39,18 @@ context Viaje
     -- El origen y el destion tienen que ser lugares diferentes.
 	inv: self.origen <> self.destino
 
-    -- El costo tiene que ser un número positivo.
+    -- El costo tiene que ser un numero positivo.
     inv: self.costo > 0
 
     -- Si un taxista acepta el viaje, entonces el viaje deja de estar pedido y viceversa.
     inv: self.estado <> EstadoDelViaje::pedido implies not self.conductor->empty()
     inv: self.conductor->empty() implies self.estado <> EstadoDelViaje::pedido
 
-    -- Si un taxi llegó al destino, el viaje de estar en marcha.
-    -- Notar que el viaje no necesariamente terminó; puede no haber empezado.
+    -- Si un taxi llego al destino, el viaje de estar en marcha.
+    -- Notar que el viaje no necesariamente termino; puede no haber empezado.
     inv: self.conductor.ubicacion = self.destion implies estado <> EstadoDelViaje::enMarcha
 
-    -- Si un taxi llegó al origen del viaje, el viaje tiene que empezar.
+    -- Si un taxi llego al origen del viaje, el viaje tiene que empezar.
     inv: self.conductor.ubicacion = self.origen implies self.estado <> EstadoDelViaje::aceptado
 
     -- Si un viaje tiene opinion debe estar finalizado
@@ -60,7 +60,7 @@ context Opinion:
     -- Una opinion no puede tener fecha anterior a la fehca del viaje
     inv: self.fecha >= self.viaje.fecha
 
-    -- La satisfacción es un número del 0 al 5.
+    -- La satisfaccion es un numero del 0 al 5.
     inv: self.satisfaccion >= 0 and self.satisfaccion <= 5
 
 \end{lstlisting}

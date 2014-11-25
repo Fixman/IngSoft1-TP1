@@ -195,33 +195,35 @@ Proviene de la p\'agina 4, del Y-ref que tiene como padre a \textit{Mantener sis
 \newpage
 \section{Requerimientos}
 
-
+Entre corchetes se indica la ubicaci\'on del requerimiento en el diagrama de objetivos. 
 \begin{itemize}
-\item Verificar si el usuario est\'a registrado. \textit{Ver CU Verificando Cliente}
-\item Registrar nuevo cliente \textit{Ver CU Registrando Cliente}
-\item Registrar nuevo pedido en sistema \textit{Ver CU Pidiendo taxi}
-\item Verificar que existe el pedido a cancelar \textit{Ver CU Cancelando Taxi}
-\item Registrar pedido de cancelaci\'on del viaje en el sistema \textit{Ver CU Cancelando Taxi}
-\item Enviar informaci\'on de cancelaci\'on de viaje \textit{Ver CU Cancelando Taxi}
-\item Registrar ubicaci\'on del taxista \textit{Ver CU Enviando ubicaci\'on del taxi}
-\item Generar estad\'isticas e indicadores \textit{Ver diagrama FSM}
-\item Mantener informaci\'on sobre viajes pedidos (regulares  y \'unicos) \textit{Ver CU Pidiendo taxi}
-\item Cargar cambio de estado en la disponibilidad del taxi \textit{Ver CU Enviando se\~nal de status}
-\item Determinar los taxistas m\'as cercanos \textit{Ver CU Eligiendo taxi y Modelo Conceptual}
-\item Conocer calificaci\'on de los taxistas m\'as cercanos \textit{Ver CU Eligiendo taxi y Modelo Conceptual}
-\item Conocer historial de los taxistas m\'as cercanos con el pasajero \textit{Ver CU Eligiendo taxi y Modelo Conceptual}
-\item Obtener calificaci\'on de los usuarios \textit{Ver Modelo Conceptual}
-\item Obtener estad\'isticas sobre la forma en que se pidieron los taxis \textit{Ver CU Consultando estad\'isticas}
-\item Obtener estad\'isticas sobre la duraci\'on de los viajes \textit{Ver CU Consultando estad\'isticas}
-\item Obtener estad\'isticas sobre precio en funci\'on de la duraci\'on de los viajes \textit{Ver CU Consultando estad\'isticas}
-\item Obtener estad\'isticas sobre tiempo de taxis inactivos \textit{Ver CU Consultando estad\'isticas}
-\item Informar las estad\'isticas a los directivos de la empresa \textit{Ver CU Consultando estad\'isticas}
-\item Nuevos taxistas registrados \textit{Ver CU Registrando taxista}
-\item Evaluar autom\'aticamente el mejor taxi disponible \textit{Ver Modelo Conceptual}
-\item Brindar informaci\'on sobre taxis y taxistas disponibles \textit{Ver CU eligiendo taxi}
-\item Registrar taxi elegido \textit{Ver CU eligiendo taxi}
-\item Enviar notificaci\'on de nuevo viaje \textit{Ver CU Confirmando viaje}
-\item Informar ubicaci\'on del taxi movilizado \textit{Ver CU Enviando Ubicacion del Taxi}
+\item Verificar si el usuario est\'a registrado. \textit{Ver CU Verificando Cliente} [P\'agina 6 - \textit{Lograr[Se verifica si el usuario est\'a registrado]}]
+\item Registrar nuevo cliente \textit{Ver CU Registrando Cliente} [P\'agina 6 - \textit{Lograr[Registrar usuario no registrado]}]
+\item Registrar nuevo pedido en sistema \textit{Ver CU Pidiendo taxi} [P\'agina 5 - \textit{Lograr[Recibir pedido]}]
+\item Verificar que existe el pedido a cancelar \textit{Ver CU Cancelando Taxi} [P\'agina 7 - \textit{Lograr[Verificar que existe el pedido a cancelar]}]
+\item Registrar pedido de cancelaci\'on del viaje en el sistema \textit{Ver CU Cancelando Taxi} [P\'agina 7 - \textit{Lograr[Registrar pedido de cancelaci\'on del viaje en el sistema]}]
+\item Enviar informaci\'on de cancelaci\'on de viaje \textit{Ver CU Cancelando Taxi} [P\'agina 7 - \textit{Lograr[Enviar pedido de cancelaci\'on de viaje]} y \textit{Cargar pedido de cancelaci\'on de viaje en el sistema}]
+\item Registrar ubicaci\'on del taxista \textit{Ver CU Enviando ubicaci\'on del taxi} [P\'agina 8]
+\item Generar estad\'isticas e indicadores \textit{Ver diagrama FSM} [P\'agina 8]
+\item Mantener informaci\'on sobre viajes pedidos (regulares  y \'unicos) \textit{Ver CU Pidiendo taxi} [P\'agina 4]
+
+\item Cargar cambio de estado en la disponibilidad del taxi \textit{Ver CU Enviando se\~nal de status} [P\'agina 8 - \textit{Mantener[Informaci\'on sobre disponibilidad de taxistas]} y sus hijos]
+\item Determinar los taxistas m\'as cercanos \textit{Ver CU Eligiendo taxi y Modelo Conceptual} [P\'agina 9 - nodo hijo de \textit{Lograr[Recopilar informaci\'on sobre taxis disponibles]}]
+\item Conocer calificaci\'on de los taxistas m\'as cercanos \textit{Ver CU Eligiendo taxi y Modelo Conceptual} [P\'agina 9 - nodo hijo de \textit{Lograr[Recopilar informaci\'on sobre taxis disponibles]}]
+\item Conocer historial de los taxistas m\'as cercanos con el pasajero \textit{Ver CU Eligiendo taxi y Modelo Conceptual} [P\'agina 9 - nodo hijo de \textit{Lograr[Recopilar informaci\'on sobre taxis disponibles]}]
+\item Obtener calificaci\'on de los usuarios \textit{Ver Modelo Conceptual} [P\'agina 3, nodo hijo de \textit{Mantener[Estad\'isticas e indicadores sobre la conformidad de los usuarios con el sistema]} ]
+\item Obtener estad\'isticas sobre la forma en que se pidieron los taxis \textit{Ver CU Consultando estad\'isticas} [P\'agina 3, nodo hijo de \textit{Mantener[Estad\'isticas e indicadores sobre el uso del sistema coordinando los taxis]} ]
+\item Obtener estad\'isticas sobre la duraci\'on de los viajes \textit{Ver CU Consultando estad\'isticas} [P\'agina 3, nodo hijo de \textit{Mantener[Estad\'isticas e indicadores sobre el uso del sistema coordinando los taxis]} ]
+\item Obtener estad\'isticas sobre precio en funci\'on de la duraci\'on de los viajes \textit{Ver CU Consultando estad\'isticas} [P\'agina 3, nodo hijo de \textit{Mantener[Estad\'isticas e indicadores sobre el uso del sistema coordinando los taxis]} ]
+\item Obtener estad\'isticas sobre tiempo de taxis inactivos \textit{Ver CU Consultando estad\'isticas} [P\'agina 3, nodo hijo de \textit{Mantener[Estad\'isticas e indicadores sobre el uso del sistema coordinando los taxis]} ]
+\item Informar las estad\'isticas a los directivos de la empresa \textit{Ver CU Consultando estad\'isticas} [P\'agina 3, nodo hijo de \textit{Lograr[Validar si el nuevo software ayuda a incrementar las ventas]}]
+\item Nuevos taxistas registrados \textit{Ver CU Registrando taxista} [P\'agina 8 - \textit{Lograr[Aumentar la flota de taxis si es necesario] e hijos}]
+\item Evaluar autom\'aticamente el mejor taxi disponible \textit{Ver Modelo Conceptual} [P\'agina 9 - hijo del nodo \textit{Lograr[Decidir auto adecuado para enviar]}]
+\item Brindar informaci\'on sobre taxis y taxistas disponibles \textit{Ver CU eligiendo taxi} [P\'agina 9 - hijo del nodo \textit{Lograr[Automatizar asistencia para la selecci\'on ...]}]
+\item Registrar taxi elegido \textit{Ver CU eligiendo taxi} [P\'agina 9 - hijo del nodo \textit{Lograr[Automatizar asistencia para la selecci\'on ...]}]
+\item Enviar notificaci\'on de nuevo viaje \textit{Ver CU Confirmando viaje} [P\'agina 10 - hijo del nodo \textit{Lograr[Comenzar movilizaci\'on del taxi adecuado]}]
+\item Informar ubicaci\'on del taxi movilizado \textit{Ver CU Enviando Ubicacion del Taxi} [P\'agina 10 - hijo del nodo \textit{Lograr[Informar al cliente sobre la posici\'on del taxi movilizado]}]
+
 \item Obtener la opini\'on del usuario que viaj\'o en un taxi de la empresa \textit{Ver CU Puntuando Taxista}
 
 \end{itemize}
