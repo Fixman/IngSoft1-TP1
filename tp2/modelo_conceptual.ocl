@@ -1,4 +1,4 @@
-context Direccion
+﻿context Direccion
     -- La latitud es un numero del 0 al 90, y la longitud del 0 al 180.
     -- Es más simple aceptar que los valores sean negativos que agregar direcciones cardinales.
     inv: self.latitud >= -90 and self.latitud < 90
@@ -14,12 +14,20 @@ context Cliente
     -- Cada cliente tine a lo sumo un viaje activo a la vez.
     inv: self.viajes->select(v | v.estado <> EstadoDelViaje::terminado)->size() <= 1
        
-context Taxista
+context PerfilTaxista
     -- La cantidad de viajes es un numero no negativo.
     inv: self.cantidadViajes >= 0
 
     -- La puntuación es un número del 0 al 5.
-    inv: self.puntuacion >= 0 and self.puntuacion < 6
+    inv: self.puntuacion >= 0 and self.puntuacion <= 5
+
+context Taxista:
+    -- La cantidad de viajes de un taxista es igual a la cantidad de viajes finalizados (tengan o no opinion)
+    inv: self.perfil.cantidadViajes = self.vehiculo.viajes->select(v | v.estado = EstadoDelViaje::terminado)->size()
+
+    -- El puntaje de un taxista es el promedio de los puntajes de sus viajes con opinion (si hay alguna, caso contrario no esta definido)
+    inv: self.vehiculo.viajes->select(v | v.opinion->size() > 0)->size() > 0 implies
+         self.perfil.puntuacion = self.vehiculo.viajes->(select(v | v.opinion->size() > 0).opinion.satisfaccion->sum())/select(v | v.opinion->size() > 0)->size()
 
 context Taxi
     -- Cada taxi tiene a lo sumo un viaje activo a la vez.
@@ -32,9 +40,6 @@ context Viaje
     -- El costo tiene que ser un número positivo.
     inv: self.costo > 0
 
-    -- La satisfacción es un número del 0 al 5.
-    inv: self.satisfaccion >= 0 and self.satisfaccion < 6
-
     -- Si un taxista acepta el viaje, entonces el viaje deja de estar pedido y viceversa.
     inv: self.estado <> EstadoDelViaje::pedido implies not self.conductor->empty()
     inv: self.conductor->empty() implies self.estado <> EstadoDelViaje::pedido
@@ -46,3 +51,12 @@ context Viaje
     -- Si un taxi llegó al origen del viaje, el viaje tiene que empezar.
     inv: self.conductor.ubicacion = self.origen implies self.estado <> EstadoDelViaje::aceptado
 
+    -- Si un viaje tiene opinion debe estar finalizado
+    inv: self.opinion->size() > 0 implies self.estado = EstadoDelViaje::terminado
+
+context Opinion:
+    -- Una opinion no puede tener fecha anterior a la fehca del viaje
+    inv: self.fecha >= self.viaje.fecha
+
+    -- La satisfacción es un número del 0 al 5.
+    inv: self.satisfaccion >= 0 and self.satisfaccion <= 5
